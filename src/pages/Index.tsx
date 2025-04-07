@@ -12,28 +12,20 @@ import Footer from '@/components/Footer';
 const Index = () => {
   const featuredPsychologists = [
     {
-      id: "dr-smith",
-      name: "Dr. Emily Smith",
+      id: "dr-szentes-annamaria",
+      name: "Dr.Szentes Annamária",
       title: "Clinical Psychologist",
       specialties: ["Child Psychology", "Family Therapy"],
       image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
       shortBio: "Dr. Smith specializes in child psychology and family therapy with over 10 years of experience helping families thrive."
     },
     {
-      id: "dr-johnson",
-      name: "Dr. Michael Johnson",
+      id: "jozsa-balazs",
+      name: "Józsa Balázs",
       title: "Family Therapist",
       specialties: ["Family Therapy", "Tale Therapy"],
       image: "https://images.unsplash.com/photo-1553867745-6e038d085e86?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
       shortBio: "Dr. Johnson uses innovative approaches like tale therapy to help families communicate effectively and resolve conflicts."
-    },
-    {
-      id: "dr-williams",
-      name: "Dr. Sarah Williams",
-      title: "Child Psychologist",
-      specialties: ["Child Psychodrama", "Child Psychology"],
-      image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-      shortBio: "Dr. Williams is passionate about helping children express themselves through psychodrama techniques."
     }
   ];
 
