@@ -14,18 +14,18 @@ const Index = () => {
     {
       id: "dr-szentes-annamaria",
       name: "Dr.Szentes Annamária",
-      title: "Clinical Psychologist",
-      specialties: ["Child Psychology", "Family Therapy"],
+      title: "Klinikai gyermekszakpszichológus",
+      specialties: ["Családterapeuta", "Meseterapeuta"],
       image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
       shortBio: "Dr. Smith specializes in child psychology and family therapy with over 10 years of experience helping families thrive."
     },
     {
       id: "jozsa-balazs",
       name: "Józsa Balázs",
-      title: "Family Therapist",
-      specialties: ["Family Therapy", "Tale Therapy"],
-      image: "https://images.unsplash.com/photo-1553867745-6e038d085e86?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-      shortBio: "Dr. Johnson uses innovative approaches like tale therapy to help families communicate effectively and resolve conflicts."
+      title: "Pszichológus",
+      specialties: ["Párterápeuta", "Családterapeuta"],
+      image: "https://static.wixstatic.com/media/8f8a9a_a33a678f261f40458c48bd96f7c574dc.jpg/v1/fill/w_496,h_800,al_c,q_85,enc_avif,quality_auto/8f8a9a_a33a678f261f40458c48bd96f7c574dc.jpg",
+      shortBio: "Egy elektornikai szakközépiskolába jártam, és gyengeáramű műszerésznek tanultam, amikor testvérem történeteinek hatására eldöntöttem, hogy pszichológus leszek. Nem volt egyszerű. Először programozó matematikát tanultam, majd később pszichológát."
     }
   ];
 
@@ -41,25 +41,25 @@ const Index = () => {
             <div className="text-center mb-12">
               <h2 className="text-therapy-dark mb-4">Our Services</h2>
               <p className="text-therapy-gray max-w-2xl mx-auto">
-                We offer a wide range of psychological services tailored to meet the unique needs of 
-                individuals, families, and children.
+              Pszichológiai rendelőnk magas színvonalú szakpszichológiai szolgáltatásokat nyújt a Szentendrén és a környéken élő gyerekeknek, felnőtteknek, pároknak és családoknak.
+              Sokéves tapasztalattal rendelkező szakpszichológus kollégáink elfogadó és biztonságos környezetben támogatják a hozzánk fordulókat a mindennapi kihívások kezelésében.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <ServiceCard
-                title="Child Psychology"
-                description="Specialized therapy approaches for children to help them navigate emotional challenges and develop healthy coping mechanisms."
+                title="Egyéni gyermekterápia"
+                description="A gyermekterápia alapvetően eltér a felnőttek számára kialakított terápiás módszerektől. A pszichológus elsődleges célja, hogy a gyermek számára biztonságos és támogató légkört teremtsen, amelyben az életkorához illeszkedő eszközök – például játékok, kreatív feladatok, rajzok vagy tesztek – segítségével tárja fel és értse meg a problémák mögött húzódó okokat."
                 icon={<Smile className="h-6 w-6" />}
               />
               <ServiceCard
-                title="Family Therapy"
-                description="Helping families improve communication, resolve conflicts, and strengthen relationships through collaborative therapeutic sessions."
+                title="Felnőtt egyéni terápia"
+                description="HAz egyéni felnőtt terápia egy pszichoterápiás folyamat, amely a személyes fejlődést, önismeretet és a mindennapi élet nehézségeivel való megküzdést célozza."
                 icon={<Users className="h-6 w-6" />}
               />
               <ServiceCard
-                title="Tale Therapy"
-                description="Using storytelling as a therapeutic tool to help clients express emotions, gain insights, and discover new perspectives."
+                title="Pár és családterápia"
+                description="A családterápia egy pszichoterápiás módszer, amely az egyéni problémákat a családi és kapcsolati rendszer összefüggéseiben vizsgálja. Célja a család működésének javítása, a megértés és érzelmi támogatás erősítése, valamint a problémamegoldó készségek fejlesztése."
                 icon={<Award className="h-6 w-6" />}
               />
             </div>

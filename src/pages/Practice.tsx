@@ -16,17 +16,7 @@ const Practice = () => {
       url: "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       alt: "Therapy room",
       title: "Adult Therapy Room"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      alt: "Children's therapy room",
-      title: "Children's Therapy Space"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1600585154084-4c5bfcd199be?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      alt: "Family therapy room",
-      title: "Family Session Room"
-    },
+    }
   ];
 
   return (

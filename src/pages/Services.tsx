@@ -24,37 +24,37 @@ interface Service {
 const Services = () => {
   const services: Service[] = [
     {
-      title: "Child Psychology",
-      description: "Specialized therapeutic approaches for children experiencing emotional or behavioral challenges.",
+      title: "Gyermekterápia",
+      description: "A gyermekterápia alapvetően eltér a felnőttek számára kialakított terápiás módszerektől.",
       icon: <Smile className="h-6 w-6" />,
-      details: "Our child psychology services help children navigate emotional challenges, behavioral issues, developmental concerns, and life transitions. Using play therapy, art therapy, and age-appropriate conversation, we create a safe space where children can express themselves and develop healthy coping mechanisms."
+      details: "A gyermekterápia alapvetően eltér a felnőttek számára kialakított terápiás módszerektől. A pszichológus elsődleges célja, hogy a gyermek számára biztonságos és támogató légkört teremtsen, amelyben az életkorához illeszkedő eszközök – például játékok, kreatív feladatok, rajzok vagy tesztek – segítségével tárja fel és értse meg a problémák mögött húzódó okokat. A gyerekekkel való munka során a verbális kommunikáció kevésbé hangsúlyos, helyette a játék, a fantázia, a bábjáték, a mesék és az alkotó tevékenységek kerülnek középpontba. Ezek az eszközök segítenek a gyermeknek abban, hogy megjelenítse és kifejezze belső világát, nehézségeit, érzéseit és feszültségeit, így a problémák feldolgozhatóvá válnak."
     },
     {
-      title: "Family Therapy",
-      description: "Working with the entire family unit to improve communication and resolve conflicts.",
+      title: "Családterápia",
+      description: "A családterápia egy pszichoterápiás módszer, amely az egyéni problémákat a családi és kapcsolati rendszer összefüggéseiben vizsgálja.",
       icon: <Users className="h-6 w-6" />,
-      details: "Family therapy addresses issues affecting the family system as a whole. We help families improve communication, navigate conflicts, adjust to changes, and strengthen relationships. By understanding family dynamics and patterns, we collaborate with all family members to create positive change."
+      details: "A családterápia egy pszichoterápiás módszer, amely az egyéni problémákat a családi és kapcsolati rendszer összefüggéseiben vizsgálja. Célja a család működésének javítása, a megértés és érzelmi támogatás erősítése, valamint a problémamegoldó készségek fejlesztése. Segít feltárni a kapcsolati problémák okait, és hatékony megoldásokat kínál. Ha a család működése elakad, a terápia támogatást nyújt a konfliktusok megértésében és kezelésében, elősegítve a harmonikusabb együttélést. A családterápiás ülések 3-4 heti gyakorisággal zajlanak, 90 percben, két családterapeuta vezetésével."
     },
     {
-      title: "Tale Therapy",
+      title: "Meseterápia",
       description: "Using storytelling as a therapeutic tool to help express emotions and gain new perspectives.",
       icon: <Book className="h-6 w-6" />,
       details: "Tale therapy harnesses the power of stories to help clients express difficult emotions, explore different perspectives, and find meaning in their experiences. This approach is particularly effective with children but can benefit clients of all ages, especially those who find direct discussion of emotions challenging."
     },
     {
-      title: "Child Psychodrama",
+      title: "Gyermekpszichodráma",
       description: "A creative approach that uses guided dramatic play to help children process emotions.",
       icon: <Sparkles className="h-6 w-6" />,
       details: "Child psychodrama uses role-playing and guided dramatic play to help children express feelings, work through traumatic experiences, and develop social skills. This approach allows children to safely explore difficult emotions and situations through play, leading to emotional healing and personal growth."
     },
     {
-      title: "Individual Therapy",
-      description: "One-on-one sessions tailored to address personal challenges and promote mental wellbeing.",
+      title: "Egyéni terápia",
+      description: "Az egyéni felnőtt terápia egy pszichoterápiás folyamat, amely a személyes fejlődést, önismeretet és a mindennapi élet nehézségeivel való megküzdést célozza.",
       icon: <Heart className="h-6 w-6" />,
-      details: "Individual therapy provides a confidential space to work through personal challenges with professional guidance. Our approach is tailored to your specific needs, whether you're dealing with anxiety, depression, life transitions, trauma, or simply seeking personal growth and self-understanding."
+      details: "Az egyéni felnőtt terápia egy pszichoterápiás folyamat, amely a személyes fejlődést, önismeretet és a mindennapi élet nehézségeivel való megküzdést célozza. Célja, hogy segítse a klienset megérteni érzéseit, gondolatait és viselkedési mintáit, valamint hatékony problémamegoldó készségeket fejlesszen. A terápia során a szakember biztonságos és támogató környezetet biztosít, ahol a kliens szabadon kifejezheti aggályait. Különösen hasznos lehet olyan problémák kezelésében, mint élethelyzeti változások, szorongás, depresszió, önértékelési gondok vagy gyász. Emellett lehetőséget ad a múltbeli nehézségek feldolgozására, miközben elősegíti a kliens önállóbb és kiegyensúlyozottabb életvitelét."
     },
     {
-      title: "Couple Counseling",
+      title: "Párterápua",
       description: "Supporting couples in improving communication and strengthening their relationship.",
       icon: <Frown className="h-6 w-6" />,
       details: "Couple counseling helps partners improve communication, resolve conflicts, rebuild trust, and strengthen their emotional connection. Whether you're facing specific challenges or simply want to enhance an already good relationship, our therapists provide tools and strategies for creating a healthier partnership."
