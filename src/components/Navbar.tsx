@@ -1,37 +1,30 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import LanguageSelector from './LanguageSelector';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [currentLanguage, setCurrentLanguage] = useState('en');
-
-  useEffect(() => {
-    // Get stored language from localStorage or use default
-    const storedLanguage = localStorage.getItem('language') || 'en';
-    setCurrentLanguage(storedLanguage);
-  }, []);
+  const { language, setLanguage, t } = useLanguage();
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
 
-  const handleLanguageChange = (language: string) => {
-    setCurrentLanguage(language);
-    localStorage.setItem('language', language);
-    // In a real app, you would update translations here
+  const handleLanguageChange = (langCode: string) => {
+    setLanguage(langCode);
   };
 
   const links = [
-    { title: "Home", href: "/" },
-    { title: "About Us", href: "/about-us" },
-    { title: "The Practice", href: "/practice" },
-    { title: "Psychologists", href: "/psychologists" },
-    { title: "Services", href: "/services" },
-    { title: "Contact", href: "/contact" },
+    { title: t('home'), href: "/" },
+    { title: t('aboutUs'), href: "/about-us" },
+    { title: t('practice'), href: "/practice" },
+    { title: t('psychologists'), href: "/psychologists" },
+    { title: t('services'), href: "/services" },
+    { title: t('contact'), href: "/contact" },
   ];
 
   return (
@@ -54,11 +47,11 @@ const Navbar = () => {
           ))}
           <Link to="/booking">
             <Button className="bg-therapy-blue hover:bg-therapy-blue/90">
-              Book Appointment
+              {t('bookAppointment')}
             </Button>
           </Link>
           <LanguageSelector
-            currentLanguage={currentLanguage}
+            currentLanguage={language}
             onLanguageChange={handleLanguageChange}
           />
         </div>
@@ -66,7 +59,7 @@ const Navbar = () => {
         {/* Mobile menu button */}
         <div className="md:hidden flex items-center gap-2">
           <LanguageSelector
-            currentLanguage={currentLanguage}
+            currentLanguage={language}
             onLanguageChange={handleLanguageChange}
           />
           <button
@@ -95,7 +88,7 @@ const Navbar = () => {
             ))}
             <Link to="/booking" onClick={() => setMobileMenuOpen(false)}>
               <Button className="bg-therapy-blue hover:bg-therapy-blue/90 w-full">
-                Book Appointment
+                {t('bookAppointment')}
               </Button>
             </Link>
           </div>

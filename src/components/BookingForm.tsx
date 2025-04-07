@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
+import { useLanguage } from '@/contexts/LanguageContext';
 import {
   Select,
   SelectContent,
@@ -41,6 +42,7 @@ const services = [
 const BookingForm: React.FC = () => {
   const [searchParams] = useSearchParams();
   const preselectedPsychologist = searchParams.get('psychologist');
+  const { t } = useLanguage();
   
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -92,34 +94,34 @@ const BookingForm: React.FC = () => {
   return (
     <Card className="w-full">
       <CardHeader>
-        <CardTitle className="text-therapy-dark">Book Your Appointment</CardTitle>
+        <CardTitle className="text-therapy-dark">{t('bookingTitle')}</CardTitle>
         <CardDescription>
-          Fill out the form below to request an appointment with one of our specialists.
+          {t('bookingSubtitle')}
         </CardDescription>
       </CardHeader>
       <form onSubmit={handleSubmit}>
         <CardContent className="space-y-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="space-y-2">
-              <Label htmlFor="name">Full Name</Label>
+              <Label htmlFor="name">{t('fullName')}</Label>
               <Input 
                 id="name" 
                 name="name" 
                 value={formData.name} 
                 onChange={handleChange} 
-                placeholder="Enter your full name" 
+                placeholder={t('enterFullName')} 
                 required 
               />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="email">Email</Label>
+              <Label htmlFor="email">{t('email')}</Label>
               <Input 
                 id="email" 
                 name="email" 
                 type="email" 
                 value={formData.email} 
                 onChange={handleChange} 
-                placeholder="Enter your email address" 
+                placeholder={t('enterEmail')} 
                 required 
               />
             </div>
@@ -127,24 +129,24 @@ const BookingForm: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="space-y-2">
-              <Label htmlFor="phone">Phone Number</Label>
+              <Label htmlFor="phone">{t('phone')}</Label>
               <Input 
                 id="phone" 
                 name="phone" 
                 value={formData.phone} 
                 onChange={handleChange} 
-                placeholder="Enter your phone number" 
+                placeholder={t('enterPhone')} 
                 required 
               />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="psychologist">Preferred Psychologist</Label>
+              <Label htmlFor="psychologist">{t('preferredPsychologist')}</Label>
               <Select 
                 value={formData.psychologist} 
                 onValueChange={(value) => handleSelectChange('psychologist', value)}
               >
                 <SelectTrigger>
-                  <SelectValue placeholder="Select a psychologist" />
+                  <SelectValue placeholder={t('selectPsychologist')} />
                 </SelectTrigger>
                 <SelectContent>
                   {psychologists.map((psychologist) => (
@@ -159,13 +161,13 @@ const BookingForm: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="space-y-2">
-              <Label htmlFor="service">Service</Label>
+              <Label htmlFor="service">{t('service')}</Label>
               <Select 
                 value={formData.service} 
                 onValueChange={(value) => handleSelectChange('service', value)}
               >
                 <SelectTrigger>
-                  <SelectValue placeholder="Select a service" />
+                  <SelectValue placeholder={t('selectService')} />
                 </SelectTrigger>
                 <SelectContent>
                   {services.map((service) => (
@@ -177,7 +179,7 @@ const BookingForm: React.FC = () => {
               </Select>
             </div>
             <div className="space-y-2">
-              <Label htmlFor="preferredDate">Preferred Date</Label>
+              <Label htmlFor="preferredDate">{t('preferredDate')}</Label>
               <Input 
                 id="preferredDate" 
                 name="preferredDate" 
@@ -191,31 +193,31 @@ const BookingForm: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
             <div className="space-y-2">
-              <Label htmlFor="preferredTime">Preferred Time</Label>
+              <Label htmlFor="preferredTime">{t('preferredTime')}</Label>
               <Select 
                 value={formData.preferredTime} 
                 onValueChange={(value) => handleSelectChange('preferredTime', value)}
               >
                 <SelectTrigger>
-                  <SelectValue placeholder="Select a time" />
+                  <SelectValue placeholder={t('selectTime')} />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="morning">Morning (9am - 12pm)</SelectItem>
-                  <SelectItem value="afternoon">Afternoon (12pm - 4pm)</SelectItem>
-                  <SelectItem value="evening">Evening (4pm - 7pm)</SelectItem>
+                  <SelectItem value="morning">{t('morning')}</SelectItem>
+                  <SelectItem value="afternoon">{t('afternoon')}</SelectItem>
+                  <SelectItem value="evening">{t('evening')}</SelectItem>
                 </SelectContent>
               </Select>
             </div>
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="message">Additional Information</Label>
+            <Label htmlFor="message">{t('additionalInfo')}</Label>
             <Textarea 
               id="message" 
               name="message" 
               value={formData.message} 
               onChange={handleChange} 
-              placeholder="Please share any specific concerns or questions you have"
+              placeholder={t('additionalInfoPlaceholder')}
               rows={4}
             />
           </div>
@@ -226,7 +228,7 @@ const BookingForm: React.FC = () => {
             className="w-full bg-therapy-blue hover:bg-therapy-blue/90"
             disabled={isSubmitting}
           >
-            {isSubmitting ? "Submitting..." : "Request Appointment"}
+            {isSubmitting ? t('submitting') : t('requestAppointment')}
           </Button>
         </CardFooter>
       </form>
