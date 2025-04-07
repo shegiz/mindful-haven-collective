@@ -8,52 +8,20 @@ import PsychologistCard from '@/components/PsychologistCard';
 const Psychologists = () => {
   const psychologists = [
     {
-      id: "dr-smith",
-      name: "Dr. Emily Smith",
+      id: "dr-szentes-annamaria",
+      name: "Dr.Szentes Annamária",
       title: "Clinical Psychologist",
       specialties: ["Child Psychology", "Family Therapy"],
       image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
       shortBio: "Dr. Smith specializes in child psychology and family therapy with over 10 years of experience helping families thrive."
     },
     {
-      id: "dr-johnson",
-      name: "Dr. Michael Johnson",
+      id: "jozsa-balazs",
+      name: "Józsa Balázs",
       title: "Family Therapist",
       specialties: ["Family Therapy", "Tale Therapy"],
       image: "https://images.unsplash.com/photo-1553867745-6e038d085e86?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
       shortBio: "Dr. Johnson uses innovative approaches like tale therapy to help families communicate effectively and resolve conflicts."
-    },
-    {
-      id: "dr-williams",
-      name: "Dr. Sarah Williams",
-      title: "Child Psychologist",
-      specialties: ["Child Psychodrama", "Child Psychology"],
-      image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-      shortBio: "Dr. Williams is passionate about helping children express themselves through psychodrama techniques."
-    },
-    {
-      id: "dr-brown",
-      name: "Dr. David Brown",
-      title: "Adult Psychologist",
-      specialties: ["Individual Therapy", "Couple Counseling"],
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-      shortBio: "Dr. Brown has extensive experience working with adults facing life transitions, anxiety, depression, and relationship challenges."
-    },
-    {
-      id: "dr-davis",
-      name: "Dr. Jennifer Davis",
-      title: "Clinical Psychologist",
-      specialties: ["Child Psychology", "Tale Therapy"],
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-      shortBio: "Dr. Davis combines traditional therapeutic approaches with innovative tale therapy to help children work through emotional challenges."
-    },
-    {
-      id: "dr-wilson",
-      name: "Dr. Robert Wilson",
-      title: "Family Systems Therapist",
-      specialties: ["Family Therapy", "Couple Counseling"],
-      image: "https://images.unsplash.com/photo-1543132220-3ec99c6094dc?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-      shortBio: "Dr. Wilson helps families and couples understand their dynamics and develop healthier patterns of interaction."
     }
   ];
 
