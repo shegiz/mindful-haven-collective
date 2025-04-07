@@ -73,7 +73,7 @@ const Index = () => {
             </div>
 
             <div className="text-center mt-12">
-              <Link to="/services">
+              <Link to="/szolgaltatasok">
                 <Button variant="outline" className="border-therapy-blue text-therapy-blue hover:bg-therapy-blue/10">
                   View All Services
                 </Button>
@@ -161,7 +161,7 @@ const Index = () => {
             </div>
 
             <div className="text-center mt-12">
-              <Link to="/psychologists">
+              <Link to="/pszichologusok">
                 <Button variant="outline" className="border-therapy-blue text-therapy-blue hover:bg-therapy-blue/10">
                   Meet All Our Psychologists
                 </Button>
@@ -178,7 +178,7 @@ const Index = () => {
               Take the first step toward improved mental well-being. Schedule an appointment with one of our 
               experienced psychologists today.
             </p>
-            <Link to="/booking">
+            <Link to="/idopontfoglalas">
               <Button className="bg-white text-therapy-blue hover:bg-white/90 px-8 py-6">
                 Book an Appointment
               </Button>

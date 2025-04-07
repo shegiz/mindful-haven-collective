@@ -28,22 +28,22 @@ const Footer = () => {
                 <Link to="/" className="hover:underline text-sm">Home</Link>
               </li>
               <li>
-                <Link to="/about-us" className="hover:underline text-sm">About Us</Link>
+                <Link to="/rolunk" className="hover:underline text-sm">About Us</Link>
               </li>
               <li>
-                <Link to="/practice" className="hover:underline text-sm">The Practice</Link>
+                <Link to="/rendelo" className="hover:underline text-sm">The Practice</Link>
               </li>
               <li>
-                <Link to="/psychologists" className="hover:underline text-sm">Our Psychologists</Link>
+                <Link to="/pszichologusok" className="hover:underline text-sm">Our Psychologists</Link>
               </li>
               <li>
-                <Link to="/services" className="hover:underline text-sm">Services</Link>
+                <Link to="/szolgaltatasok" className="hover:underline text-sm">Services</Link>
               </li>
               <li>
-                <Link to="/booking" className="hover:underline text-sm">Book an Appointment</Link>
+                <Link to="/idopontfoglalas" className="hover:underline text-sm">Book an Appointment</Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:underline text-sm">Contact Us</Link>
+                <Link to="/kapcsolat" className="hover:underline text-sm">Contact Us</Link>
               </li>
             </ul>
           </div>

@@ -20,11 +20,11 @@ const Navbar = () => {
 
   const links = [
     { title: t('home'), href: "/" },
-    { title: t('aboutUs'), href: "/about-us" },
-    { title: t('practice'), href: "/practice" },
-    { title: t('psychologists'), href: "/psychologists" },
-    { title: t('services'), href: "/services" },
-    { title: t('contact'), href: "/contact" },
+    { title: t('aboutUs'), href: "/rolunk" },
+    { title: t('practice'), href: "/rendelo" },
+    { title: t('psychologists'), href: "/pszichologusok" },
+    { title: t('services'), href: "/szolgaltatasok" },
+    { title: t('contact'), href: "/kapcsolat" },
   ];
 
   return (
@@ -45,7 +45,7 @@ const Navbar = () => {
               {link.title}
             </Link>
           ))}
-          <Link to="/booking">
+          <Link to="/idopontfoglalas">
             <Button className="bg-therapy-blue hover:bg-therapy-blue/90">
               {t('bookAppointment')}
             </Button>
@@ -86,7 +86,7 @@ const Navbar = () => {
                 {link.title}
               </Link>
             ))}
-            <Link to="/booking" onClick={() => setMobileMenuOpen(false)}>
+            <Link to="/idopontfoglalas" onClick={() => setMobileMenuOpen(false)}>
               <Button className="bg-therapy-blue hover:bg-therapy-blue/90 w-full">
                 {t('bookAppointment')}
               </Button>
