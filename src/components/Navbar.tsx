@@ -1,14 +1,28 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import LanguageSelector from './LanguageSelector';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [currentLanguage, setCurrentLanguage] = useState('en');
+
+  useEffect(() => {
+    // Get stored language from localStorage or use default
+    const storedLanguage = localStorage.getItem('language') || 'en';
+    setCurrentLanguage(storedLanguage);
+  }, []);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
+  };
+
+  const handleLanguageChange = (language: string) => {
+    setCurrentLanguage(language);
+    localStorage.setItem('language', language);
+    // In a real app, you would update translations here
   };
 
   const links = [
@@ -43,10 +57,18 @@ const Navbar = () => {
               Book Appointment
             </Button>
           </Link>
+          <LanguageSelector
+            currentLanguage={currentLanguage}
+            onLanguageChange={handleLanguageChange}
+          />
         </div>
 
         {/* Mobile menu button */}
-        <div className="md:hidden">
+        <div className="md:hidden flex items-center gap-2">
+          <LanguageSelector
+            currentLanguage={currentLanguage}
+            onLanguageChange={handleLanguageChange}
+          />
           <button
             onClick={toggleMobileMenu}
             className="text-therapy-dark focus:outline-none"
