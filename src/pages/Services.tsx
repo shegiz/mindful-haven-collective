@@ -30,28 +30,27 @@ const Services = () => {
       details: "Az egyéni gyermekterápia biztonságos és támogató keretet nyújt a gyerekek számára ahhoz, hogy játékos, életkorukhoz illeszkedő módon dolgozhassák fel érzelmi és viselkedésbeli nehézségeiket, szorongásaikat. A gyerekek sokszor nemcsak szavakkal, hanem játékkal, rajzzal, történetekkel fejezik ki belső világukat. A gyermekterápia során ezek az eszközök segítenek megérteni a reakcióik és a viselkedésük mögött húzódó érzelmeket, esetleges nehézségeket. A gyermekterápiák során a leggyakrabban szorongásos és pszichoszomatikus panaszokkal, magatartás problémákkal, illetve élethelyzeti krízisekkel (pl. válás, testvér születése) foglalkozunk. A szülők aktív bevonása és a rendszeres konzultációk fontos részét jelentik a terápiás folyamatnak. Célunk, hogy a gyermek új megküzdési módokat találjon, fejlődjön az önbizalma és jobban érezze magát a bőrében."
     },
     {
-      title: "Családterápia",
-      description: "A családterápia egy pszichoterápiás módszer, amely az egyéni problémákat a családi és kapcsolati rendszer összefüggéseiben vizsgálja.",
+      title: "Pszichológiai tanácsadás",
+      description: "A pszichológiai tanácsadás a lelki támogatás egyik formája, amely elsősorban olyan személyeket segít, akik valamilyen életvezetési nehézséggel, krízissel vagy elakadással küzdenek.",
       icon: <Users className="h-6 w-6" />,
-      details: "A családterápia egy pszichoterápiás módszer, amely az egyéni problémákat a családi és kapcsolati rendszer összefüggéseiben vizsgálja. Célja a család működésének javítása, a megértés és érzelmi támogatás erősítése, valamint a problémamegoldó készségek fejlesztése. Segít feltárni a kapcsolati problémák okait, és hatékony megoldásokat kínál. Ha a család működése elakad, a terápia támogatást nyújt a konfliktusok megértésében és kezelésében, elősegítve a harmonikusabb együttélést. A családterápiás ülések 3-4 heti gyakorisággal zajlanak, 90 percben, két családterapeuta vezetésével."
+      details: "A pszichológiai tanácsadás a lelki támogatás egyik formája, amely elsősorban olyan személyeket segít, akik valamilyen életvezetési nehézséggel, krízissel vagy elakadással küzdenek. A cél, hogy a kliens saját belső erőforrásait mozgósítva új nézőpontokat találjon problémái megértéséhez és megoldásához. A pszichológus fókuszáltan az aktuális kérdésekkel dolgozik, miközben biztonságos, elfogadó légkört biztosít az együttműködéshez. A tanácsadás során lehetőség nyílik az ismétlődő mintázatok felismerésére, a változás irányainak meghatározására és a kiegyensúlyozottabb életvitel kialakítására."
     },
     {
-      title: "Meseterápia",
-      description: "Using storytelling as a therapeutic tool to help express emotions and gain new perspectives.",
+      title: "Pár- és családterápia",
+      description: "A pár-és családterápia olyan terápiás megközelítés, amely az egyén nehézségeit a kapcsolati rendszerében vizsgálja.",
       icon: <Book className="h-6 w-6" />,
-      details: "Tale therapy harnesses the power of stories to help clients express difficult emotions, explore different perspectives, and find meaning in their experiences. This approach is particularly effective with children but can benefit clients of all ages, especially those who find direct discussion of emotions challenging."
+      details: "A pár-és családterápia olyan terápiás megközelítés, amely az egyén nehézségeit a kapcsolati rendszerében vizsgálja. A terápiás fókuszi a családi kapcsolatokon, a társas viszonyokon, valamint a kulturális és környezeti hatások összességén van.  A terápiás munka célja, hogy támogassuk a család harmonikus működését: erősítsük a kölcsönös megértést, az érzelmi támogatást, és fejlesszük a megküzdési és problémamegoldó készségeket. A család fogalmát tágan értelmezzük – számunkra minden olyan emberi közösség családnak számít, amelynek tagjai törődnek egymással, és magukat családként határozzák meg. A terápiás folyamatot mindig az adott család élethelyzetéhez, szükségleteihez és értékeihez igazítjuk."
     },
     {
-      title: "Gyermekpszichodráma",
-      description: "A creative approach that uses guided dramatic play to help children process emotions.",
+      title: "Online párterápia",
+      description: "A rendszerszemléletű párterápia egy olyan terápiás megközelítés, amely a párkapcsolatot nem egyének összességének, hanem rendszerként kezeli.",
       icon: <Sparkles className="h-6 w-6" />,
-      details: "Child psychodrama uses role-playing and guided dramatic play to help children express feelings, work through traumatic experiences, and develop social skills. This approach allows children to safely explore difficult emotions and situations through play, leading to emotional healing and personal growth."
+      details: "A rendszerszemléletű párterápia egy olyan terápiás megközelítés, amely a párkapcsolatot nem egyének összességének, hanem rendszerként kezeli, így a terápiás munka középpontjában maga a kapcsolat áll, a cél pedig a működési mintázatok megértése és, ha szükséges új mintázatok, stratégiák kialakítása. A párterápia biztonságos keretet ad ahhoz, hogy a felek nyíltan, őszintén beszélhessenek a nehézségeikről. A folyamat során közösen dolgozunk a rögzült kommunikációs és viselkedési minták feltárásán, megértjük ezek eredetét és hatását, majd segítünk olyan új kapcsolati működésmódokat kialakítani, amelyek támogatják a kapcsolat fejlődését és stabilitását."
     },
     {
-      title: "Egyéni terápia",
-      description: "Az egyéni felnőtt terápia egy pszichoterápiás folyamat, amely a személyes fejlődést, önismeretet és a mindennapi élet nehézségeivel való megküzdést célozza.",
+      title: "Csoportterápiák",
+      description: "Központunkban önismereti, meseterápiás, gyermekpszichodráma, irodalomterápiás és tematikus csoportokat tartunk.",
       icon: <Heart className="h-6 w-6" />,
-      details: "Az egyéni felnőtt terápia egy pszichoterápiás folyamat, amely a személyes fejlődést, önismeretet és a mindennapi élet nehézségeivel való megküzdést célozza. Célja, hogy segítse a klienset megérteni érzéseit, gondolatait és viselkedési mintáit, valamint hatékony problémamegoldó készségeket fejlesszen. A terápia során a szakember biztonságos és támogató környezetet biztosít, ahol a kliens szabadon kifejezheti aggályait. Különösen hasznos lehet olyan problémák kezelésében, mint élethelyzeti változások, szorongás, depresszió, önértékelési gondok vagy gyász. Emellett lehetőséget ad a múltbeli nehézségek feldolgozására, miközben elősegíti a kliens önállóbb és kiegyensúlyozottabb életvitelét."
     },
     {
       title: "Párterápua",
