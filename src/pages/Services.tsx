@@ -178,14 +178,15 @@ const Services = () => {
         {/* Call to Action */}
         <section className="bg-therapy-blue py-16">
           <div className="container-custom text-center text-white">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-6">Ready to Start Your Journey?</h2>
+            <h2 className="text-3xl md:text-4xl font-semibold mb-6">
+              Készen áll a változásra?
+            </h2>
             <p className="max-w-2xl mx-auto mb-8 opacity-90">
-              Take the first step toward improved mental well-being. Schedule an appointment with one of our 
-              experienced psychologists today.
+              Foglaljon időpontot még ma, és kezdje el a lelki egészsége fejlesztését szakértőink segítségével. Legyen szó egyéni terápiáról, párkapcsolati tanácsadásról vagy csoportos foglalkozásokról, mi itt vagyunk, hogy támogassuk Önt.
             </p>
             <Link to="/booking">
               <Button className="bg-white text-therapy-blue hover:bg-white/90 px-8 py-6">
-                Book an Appointment
+                Időpontfoglalás
               </Button>
             </Link>
           </div>
