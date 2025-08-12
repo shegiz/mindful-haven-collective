@@ -24,10 +24,10 @@ interface Service {
 const Services = () => {
   const services: Service[] = [
     {
-      title: "Gyermekterápia",
-      description: "A gyermekterápia alapvetően eltér a felnőttek számára kialakított terápiás módszerektől.",
+      title: "Egyéni gyermekterápia",
+      description: "Az egyéni gyermekterápia biztonságos és támogató keretet nyújt a gyerekek számára ahhoz, hogy játékos, életkorukhoz illeszkedő módon dolgozhassák fel.",
       icon: <Smile className="h-6 w-6" />,
-      details: "A gyermekterápia alapvetően eltér a felnőttek számára kialakított terápiás módszerektől. A pszichológus elsődleges célja, hogy a gyermek számára biztonságos és támogató légkört teremtsen, amelyben az életkorához illeszkedő eszközök – például játékok, kreatív feladatok, rajzok vagy tesztek – segítségével tárja fel és értse meg a problémák mögött húzódó okokat. A gyerekekkel való munka során a verbális kommunikáció kevésbé hangsúlyos, helyette a játék, a fantázia, a bábjáték, a mesék és az alkotó tevékenységek kerülnek középpontba. Ezek az eszközök segítenek a gyermeknek abban, hogy megjelenítse és kifejezze belső világát, nehézségeit, érzéseit és feszültségeit, így a problémák feldolgozhatóvá válnak."
+      details: "Az egyéni gyermekterápia biztonságos és támogató keretet nyújt a gyerekek számára ahhoz, hogy játékos, életkorukhoz illeszkedő módon dolgozhassák fel érzelmi és viselkedésbeli nehézségeiket, szorongásaikat. A gyerekek sokszor nemcsak szavakkal, hanem játékkal, rajzzal, történetekkel fejezik ki belső világukat. A gyermekterápia során ezek az eszközök segítenek megérteni a reakcióik és a viselkedésük mögött húzódó érzelmeket, esetleges nehézségeket. A gyermekterápiák során a leggyakrabban szorongásos és pszichoszomatikus panaszokkal, magatartás problémákkal, illetve élethelyzeti krízisekkel (pl. válás, testvér születése) foglalkozunk. A szülők aktív bevonása és a rendszeres konzultációk fontos részét jelentik a terápiás folyamatnak. Célunk, hogy a gyermek új megküzdési módokat találjon, fejlődjön az önbizalma és jobban érezze magát a bőrében."
     },
     {
       title: "Családterápia",

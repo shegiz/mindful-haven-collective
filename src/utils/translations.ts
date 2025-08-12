@@ -93,7 +93,7 @@ export const translations: Record<string, Translations> = {
   hu: {
     // Navbar
     home: 'Főoldal',
-    aboutUs: 'Rólunk',
+    aboutUs: 'Bemutatkozás',
     practice: 'A Rendelő',
     psychologists: 'Pszichológusok',
     services: 'Szolgáltatások',
