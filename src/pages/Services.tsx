@@ -51,34 +51,34 @@ const Services = () => {
       title: "Csoportterápiák",
       description: "Központunkban önismereti, meseterápiás, gyermekpszichodráma, irodalomterápiás és tematikus csoportokat tartunk.",
       icon: <Heart className="h-6 w-6" />,
-      details: "A rendszerszemléletű párterápia egy olyan terápiás megközelítés, amely a párkapcsolatot nem egyének összességének, hanem rendszerként kezeli, így a terápiás munka középpontjában maga a kapcsolat áll, a cél pedig a működési mintázatok megértése és, ha szükséges új mintázatok, stratégiák kialakítása. A párterápia biztonságos keretet ad ahhoz, hogy a felek nyíltan, őszintén beszélhessenek a nehézségeikről. A folyamat során közösen dolgozunk a rögzült kommunikációs és viselkedési minták feltárásán, megértjük ezek eredetét és hatását, majd segítünk olyan új kapcsolati működésmódokat kialakítani, amelyek támogatják a kapcsolat fejlődését és stabilitását."
+      details: "Központunkban önismereti, meseterápiás, gyermekpszichodráma, irodalomterápiás és tematikus csoportokat tartunk."
     }
   ];
 
   const faqs = [
     {
-      question: "How do I know if I need therapy?",
-      answer: "If you're experiencing persistent sadness, anxiety, relationship difficulties, or struggling to cope with life's challenges, therapy might be beneficial. It's also valuable for personal growth or during life transitions, even when there isn't a specific mental health concern."
+      question: "Hogyan tudom, hogy szükségem van-e terápiára?",
+      answer: "Ha úgy érzi, hogy a mindennapi életben nehézségei vannak, mint például szorongás, depresszió, stresszkezelési problémák vagy kapcsolati nehézségek, akkor a terápia segíthet. A legjobb módja annak, hogy megtudja, szüksége van-e terápiára, ha konzultál egy szakemberrel. Az első találkozó során átbeszéljük az Ön helyzetét és céljait."
     },
     {
-      question: "How long does therapy usually last?",
-      answer: "The duration varies depending on your specific needs and goals. Some clients benefit from short-term therapy (8-12 sessions) focused on specific issues, while others prefer longer-term work. We'll discuss recommendations during your initial sessions and regularly review your progress."
+      question: "Milyen hosszú ideig tart a terápia?",
+      answer: "Az időtartam az Ön konkrét igényeitől és céljaitól függően változik. Egyes ügyfeleknek a rövid távú, adott problémákra összpontosító terápia (8-12 ülés) előnyös, míg mások a hosszabb távú munkát részesítik előnyben. Az első ülések során megbeszéljük a javaslatokat, és rendszeresen áttekintjük az előrehaladását."
     },
     {
-      question: "What happens in a typical therapy session?",
-      answer: "Sessions typically last 50 minutes. In the first session, we'll discuss your concerns and goals for therapy. Subsequent sessions involve exploring your thoughts, feelings, and behaviors related to your concerns. The exact format depends on the therapeutic approach and your specific needs."
+      question: "Mi történik az első terápiás ülésen?",
+      answer: "Általában az első ülés egy konzultáció, ahol átbeszéljük az Ön hátterét, jelenlegi problémáit és céljait. Ez egy lehetőség arra, hogy megismerjük egymást, és megbeszéljük a terápiás folyamatot. Nem szükséges semmilyen előkészületet tennie, csak hozza magával a nyitottságát és őszinteségét."
     },
     {
-      question: "How do I choose the right psychologist for me?",
-      answer: "Consider their specialization, therapeutic approach, and whether you feel comfortable with them. It's important to have a good rapport with your therapist. We're happy to help match you with a psychologist based on your needs, or you can review our team profiles and select someone you think might be a good fit."
+      question: "Hogyan válasszak pszichológust?",
+      answer: "A pszichológus kiválasztása személyes preferenciákon múlik. Fontos, hogy olyan szakemberrel dolgozzon, akiben megbízik és akivel kényelmesen érzi magát. Nézze meg a pszichológusok profiljait, olvassa el a véleményeket, és ha lehetséges, kérjen ajánlást ismerősöktől vagy orvosoktól. Az első konzultáció során érdemes feltenni kérdéseket a terápiás megközelítésükről és tapasztalataikról."
     },
     {
-      question: "Do you accept insurance?",
-      answer: "We work with most major insurance providers. Please contact our office with your insurance information, and we'll verify your benefits before your first appointment. We also offer self-pay options and sliding scale fees for those without insurance coverage."
+      question: "Elfogadnak-e Önkéntes Egészségpénztári kártyát?",
+      answer: "Igen, elfogadjuk az Önkéntes Egészségpénztári kártyát. Kérjük, hogy a foglalás megerősítésekor jelezze, hogy ezzel kíván fizetni, és mi segítünk a szükséges adminisztrációban."
     },
     {
-      question: "Are therapy sessions confidential?",
-      answer: "Yes, confidentiality is a fundamental part of therapy. Information shared in sessions is protected by law with few exceptions (such as risk of harm to self or others, or court orders). We'll discuss these limits to confidentiality during your first session."
+      question: "A terápia bizalmas?",
+      answer: "Igen, a terápia teljes mértékben bizalmas. A pszichológusok szigorúan betartják az etikai irányelveket, és semmilyen információt nem osztanak meg harmadik féllel az Ön beleegyezése nélkül. A bizalom és a biztonság alapvető fontosságú a terápiás folyamatban."
     }
   ];
 
@@ -87,8 +87,8 @@ const Services = () => {
       <Navbar />
       <main>
         <HeroSection 
-          title="Our Services"
-          subtitle="Comprehensive psychological services tailored to meet the unique needs of individuals, families, and children."
+          title="Szolgáltatásaink"
+          subtitle="Átfogó pszichológiai szolgáltatások, melyek az egyének, családok és gyermekek egyedi igényeit is kielégíti."
           imageSrc="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
           primaryButtonText="Book an Appointment"
           primaryButtonLink="/booking"
@@ -101,9 +101,9 @@ const Services = () => {
         <section className="section-padding bg-white">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="text-therapy-dark mb-4">What We Offer</h2>
+              <h2 className="text-therapy-dark mb-4">Amit ajánlunk</h2>
               <p className="text-therapy-gray max-w-2xl mx-auto">
-                Our wide range of services is designed to address different needs across all age groups.
+                Fedezze fel pszichológiai szolgáltatásainkat, amelyek segítenek a lelki egészség megőrzésében és fejlesztésében.
               </p>
             </div>
 
@@ -124,9 +124,11 @@ const Services = () => {
         <section className="section-padding bg-therapy-beige">
           <div className="container-custom max-w-4xl">
             <div className="text-center mb-12">
-              <h2 className="text-therapy-dark mb-4">Service Details</h2>
+              <h2 className="text-therapy-dark mb-4">
+                Részletes Szolgáltatások
+              </h2>
               <p className="text-therapy-gray max-w-2xl mx-auto">
-                Learn more about our specialized therapeutic approaches.
+                Minden szolgáltatásunkat úgy alakítottuk ki, hogy támogassa az egyéni fejlődést és a lelki jólétet. Fedezze fel részletesen, mit kínálunk.
               </p>
             </div>
 
@@ -150,9 +152,11 @@ const Services = () => {
         <section className="section-padding bg-white">
           <div className="container-custom max-w-4xl">
             <div className="text-center mb-12">
-              <h2 className="text-therapy-dark mb-4">Frequently Asked Questions</h2>
+              <h2 className="text-therapy-dark mb-4">
+                Gyakran Ismételt Kérdések (GYIK)
+              </h2>
               <p className="text-therapy-gray max-w-2xl mx-auto">
-                Answers to common questions about our services and therapy in general.
+                Itt találhatók a leggyakrabban feltett kérdések a szolgáltatásainkról és a terápiás folyamatról. Ha további kérdései vannak, ne habozzon kapcsolatba lépni velünk.
               </p>
             </div>
 
