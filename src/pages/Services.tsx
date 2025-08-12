@@ -51,12 +51,7 @@ const Services = () => {
       title: "Csoportterápiák",
       description: "Központunkban önismereti, meseterápiás, gyermekpszichodráma, irodalomterápiás és tematikus csoportokat tartunk.",
       icon: <Heart className="h-6 w-6" />,
-    },
-    {
-      title: "Párterápua",
-      description: "Supporting couples in improving communication and strengthening their relationship.",
-      icon: <Frown className="h-6 w-6" />,
-      details: "Couple counseling helps partners improve communication, resolve conflicts, rebuild trust, and strengthen their emotional connection. Whether you're facing specific challenges or simply want to enhance an already good relationship, our therapists provide tools and strategies for creating a healthier partnership."
+      details: "A rendszerszemléletű párterápia egy olyan terápiás megközelítés, amely a párkapcsolatot nem egyének összességének, hanem rendszerként kezeli, így a terápiás munka középpontjában maga a kapcsolat áll, a cél pedig a működési mintázatok megértése és, ha szükséges új mintázatok, stratégiák kialakítása. A párterápia biztonságos keretet ad ahhoz, hogy a felek nyíltan, őszintén beszélhessenek a nehézségeikről. A folyamat során közösen dolgozunk a rögzült kommunikációs és viselkedési minták feltárásán, megértjük ezek eredetét és hatását, majd segítünk olyan új kapcsolati működésmódokat kialakítani, amelyek támogatják a kapcsolat fejlődését és stabilitását."
     }
   ];
 
