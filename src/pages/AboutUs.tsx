@@ -11,7 +11,7 @@ const AboutUs = () => {
       <Navbar />
       <main>
         <HeroSection 
-          title="About MindfulHaven"
+          title="Bemutatkozás"
           subtitle="Learn about our mission, values, and the story behind our psychology practice."
           imageSrc="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
           primaryButtonText="Meet Our Team"
