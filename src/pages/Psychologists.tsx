@@ -105,13 +105,6 @@ const Psychologists = () => {
                 Szakmai alapelvek és Etikai Irányelvek
               </h2>
               <p className="text-therapy-gray max-w-2xl mx-auto">
-                
-                magyar pszichológusaink elkötelezettek a legmagasabb szakmai és etikai normák betartása mellett. Minden szakemberünk rendelkezik a szükséges képesítésekkel és engedélyekkel, és folyamatosan továbbképzik magukat, hogy naprakészen követhessék a legújabb kutatásokat és terápiás megközelítéseket.
-              </p>
-            </div>
-
-            <div className="prose prose-lg max-w-none text-therapy-gray">
-              <p>
                 Minden pszichológusunk szigorúan betartja a Magyar Pszichológiai Társaság etikai irányelveit, amelyek biztosítják, hogy a kliensek biztonságban és tiszteletben érezzék magukat a terápiás folyamat során. A pszichológusok folyamatosan részt vesznek szakmai továbbképzéseken és szupervíziókon, hogy fenntartsák tudásukat és készségeiket.
               </p>
             </div>
