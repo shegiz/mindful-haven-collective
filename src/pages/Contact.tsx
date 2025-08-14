@@ -25,7 +25,7 @@ const Contact = () => {
                 <div className="bg-white p-8 rounded-lg shadow-sm">
                   <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Áraink</h2>
                   <p className="text-therapy-gray mb-6">
-                    Az árak a módszer és a szakemberek végzettségtől és szakmai tapasztalatától függően változnak. <br />
+                    Az árak a módszer és a szakemberek végzettségtől és szakmai tapasztalatától függően változnak. <br /><br />
                     A szolgáltatások ára a következőképpen alakul: <br />
                     <b>Egyéni terápia, tanácsadás</b>: 15000-20000HUF/alkalom (50 perc) <br />
                     <b>Pár-és családterápia</b>: 50-55000/alkalom (90 perc) <br />
