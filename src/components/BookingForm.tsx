@@ -29,7 +29,7 @@ const psychologists = [
   { id: "szentes-annamaria", name: "Dr. Szentes Annamária" },
   { id: "vasarhelyi-kriszta", name: "Vásárhelyi Kriszta" },
   { id: "pajer-lilla", name: "Pajer Lilla" },
-  { id: "lencses-anita", name: "Lencsés Anita }
+  { id: "lencses-anita", name: "Lencsés Anita" }
 ];
 
 const services = [
