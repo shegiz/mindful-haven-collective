@@ -20,8 +20,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({
   imageSrc = "/public/szoba1.jpg",
   primaryButtonText = "Foglaljon időpontot",
   primaryButtonLink = "/idopontfoglalas",
-  secondaryButtonText = "Ismerjen meg minket",
-  secondaryButtonLink = "/rolunk",
   imagePosition = "right"
 }) => {
   return (
