@@ -90,8 +90,8 @@ const Services = () => {
           title="Szolgáltatásaink"
           subtitle="Átfogó pszichológiai szolgáltatások, melyek az egyének, családok és gyermekek egyedi igényeit is kielégíti."
           imageSrc="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
-          primaryButtonText="Book an Appointment"
-          primaryButtonLink="/booking"
+          primaryButtonText="Foglaljon időpontot"
+          primaryButtonLink="/idopontfoglalas"
           imagePosition="left"
         />
 

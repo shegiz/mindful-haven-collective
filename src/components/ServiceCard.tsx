@@ -23,8 +23,8 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   title,
   description,
   icon,
-  link = "/booking",
-  buttonText = "Book a Session",
+  link = "/idopontfoglalas",
+  buttonText = "Foglaljon időpontot",
 }) => {
   return (
     <Card className="h-full flex flex-col transition-all duration-200 hover:shadow-lg">
