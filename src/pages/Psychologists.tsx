@@ -30,7 +30,31 @@ const Psychologists = () => {
       specialties: ["Gyermek szakpszichológia", "Pár- és családterápia", "Meseterápia", "Gyermekpszichodráma"],
       image: "/public/szentes.jpg",
       shortBio: "Klinikai gyermek szakpszichológus, pár- és családterapeuta, meseterapeuta és gyermekpszichodráma-vezető."
-    }
+    },
+    {
+      id: "vasarhelyi-kriszta",
+      name: "Vásárhelyi Kriszta",
+      title: "klinikai ifjúsági- és gyermek szakpszichológus",
+      specialties: ["Gyermekpszichológia", "Ifjúsági pszichológia", "Családterápia"],
+      image: "/public/vasar.jpg",
+      shortBio: "Pszichológus, gyermekdráma-asszisztens, tréner, képzésben lévő pár- és családterapeuta, valamint komplex integratív terapeuta. Integrált módszertannal dolgozik, amely ötvözi a verbális és kognitív technikákat a játékkal, alkotással és természetkapcsolattal"
+    },
+    {
+      id: "pajer-lilla",
+      name: "Pajer Lilla",
+      title: "pszichológus",
+      specialties: ["gyermekpszichológia", "nevelési tanácsadás", "szorongás- és stresszkezelés", "autogén tréning"],
+      image: "/public/pajer.jpg",
+      shortBio: "okleveles pszichológus, képzésben lévő tanácsadó szakpszichológus és autogén tréning relaxációs gyakorlatvezető. Gyerekekkel művészet- és játékterápiás eszközökkel, felnőttekkel autogén tréning keretében dolgozik, valamint nevelési, szorongás- és stresszkezelési tanácsadást nyújt."
+    },
+    {
+      id: "lencses-anita",
+      name: "Lencsés Anita",
+      title: "pszichológus, irodalomterapeuta",
+      specialties: ["irodalomterápia", "önismereti csoportok", "kreatív írás"],
+      image: "/public/lencses.jpg",
+      shortBio: "Irodalomterapeuta és pszichológus, aki felnőttek önismereti csoportjaiban kortárs és klasszikus irodalmi műveket, dalszövegeket, kreatív írásgyakorlatokat és tudatos jelenlét alapú technikákat alkalmaz."
+    }    
   ];
 
   return (
