@@ -8,20 +8,28 @@ import PsychologistCard from '@/components/PsychologistCard';
 const Psychologists = () => {
   const psychologists = [
     {
-      id: "dr-szentes-annamaria",
-      name: "Dr.Szentes Annamária",
-      title: "Clinical Psychologist",
-      specialties: ["Child Psychology", "Family Therapy"],
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-      shortBio: "Dr. Smith specializes in child psychology and family therapy with over 10 years of experience helping families thrive."
+      id: "jeney-gabriella",
+      name: "Jeney Gabriella",
+      title: "Gyermekpszichodráma vezető, pár-és családterapeuta jelölt",
+      specialties: ["Gyermekpszichodráma", "Pár- és családterápia"],
+      image: "/public/jeney.jpg",
+      shortBio: "Családterápiában, felnőtt- és gyermekpszichodrámában, valamint érzelmi fókuszú párterápiában képzett pszichológus. Gyermekpszichodráma csoportokat vezet Józsa Balázzsal."
     },
     {
       id: "jozsa-balazs",
       name: "Józsa Balázs",
       title: "Family Therapist",
-      specialties: ["Family Therapy", "Tale Therapy"],
-      image: "https://images.unsplash.com/photo-1553867745-6e038d085e86?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-      shortBio: "Dr. Johnson uses innovative approaches like tale therapy to help families communicate effectively and resolve conflicts."
+      specialties: ["Család terápia", "Pár- és családterápia", "Gyermekpszichodráma"],
+      image: "/public/jozsa.jpg",
+      shortBio: "Dinamikus és rendszerszemléletben dolgozik, munkájának középpontjában a kapcsolatok és kapcsolódások mélyebb megértése áll. Gyermekekkel, felnőttekkel és családokkal foglalkozik egyéni és kapcsolati nehézségek esetén, a harmonikusabb élet felé vezető úton."
+    },
+    {
+      id: "szentes-annamaria",
+      name: "Dr. Szentes Annamária",
+      title: "Alapító, szakmai vezető",
+      specialties: ["Gyermek szakpszichológia", "Pár- és családterápia", "Meseterápia", "Gyermekpszichodráma"],
+      image: "/public/szentes.jpg",
+      shortBio: "Klinikai gyermek szakpszichológus, pár- és családterapeuta, meseterapeuta és gyermekpszichodráma-vezető."
     }
   ];
 
