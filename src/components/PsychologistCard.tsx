@@ -55,9 +55,9 @@ const PsychologistCard: React.FC<PsychologistCardProps> = ({
         </div>
       </CardContent>
       <CardFooter>
-        <Link to={`/booking?psychologist=${id}`} className="w-full">
+        <Link to={`/idopontfoglalas?psychologist=${id}`} className="w-full">
           <Button className="w-full bg-therapy-blue hover:bg-therapy-blue/90">
-            Book an Appointment
+            Foglaljon időpontot
           </Button>
         </Link>
       </CardFooter>

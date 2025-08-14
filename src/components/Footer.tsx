@@ -48,12 +48,11 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Szolgáltatásaink</h3>
             <ul className="space-y-2">
-              <li className="text-sm">Child Psychology</li>
-              <li className="text-sm">Family Therapy</li>
-              <li className="text-sm">Tale Therapy</li>
-              <li className="text-sm">Child Psychodrama</li>
-              <li className="text-sm">Individual Therapy</li>
-              <li className="text-sm">Couple Counseling</li>
+              <li className="text-sm">Egyéni gyermekterápia</li>
+              <li className="text-sm">Pszichológiai tanácsadás</li>
+              <li className="text-sm">Pár- és családterápia</li>
+              <li className="text-sm">Online párterápia</li>
+              <li className="text-sm">Csoportterápiák</li>
             </ul>
           </div>
 

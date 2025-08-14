@@ -44,11 +44,11 @@ const Booking = () => {
                   <div className="space-y-4">
                     <div className="flex items-center space-x-3">
                       <Phone className="w-5 h-5 text-therapy-blue" />
-                      <p className="text-therapy-gray">(123) 456-7890</p>
+                      <p className="text-therapy-gray">anna száma?</p>
                     </div>
                     <div className="flex items-center space-x-3">
                       <Mail className="w-5 h-5 text-therapy-blue" />
-                      <p className="text-therapy-gray">contact@mindfulhaven.com</p>
+                      <p className="text-therapy-gray">kontakt@b61kozpont.hu</p>
                     </div>
                     <div className="flex items-start space-x-3">
                       <Clock className="w-5 h-5 mt-0.5 text-therapy-blue" />
