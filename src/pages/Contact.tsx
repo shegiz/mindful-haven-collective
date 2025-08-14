@@ -20,17 +20,18 @@ const Contact = () => {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              <div>
+                <div className="bg-white p-8 rounded-lg shadow-sm">
+                  <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Send Us a Message</h2>
+                </div>
+
+                {/* Contact Form */}
+                <div className="bg-white p-8 rounded-lg shadow-sm">
+                  <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Send Us a Message</h2>
+                  <ContactForm />
+                </div>
+              </div>
               
-              <div className="bg-white p-8 rounded-lg shadow-sm">
-                <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Send Us a Message</h2>
-              </div>
-
-              {/* Contact Form */}
-              <div className="bg-white p-8 rounded-lg shadow-sm">
-                <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Send Us a Message</h2>
-                <ContactForm />
-              </div>
-
               {/* Contact Information */}
               <div className="space-y-8">
                 <div className="bg-white p-8 rounded-lg shadow-sm">
