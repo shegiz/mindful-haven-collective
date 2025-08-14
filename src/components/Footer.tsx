@@ -46,7 +46,7 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h3 className="text-xl font-semibold mb-4">Our Services</h3>
+            <h3 className="text-xl font-semibold mb-4">Szolgáltatásaink</h3>
             <ul className="space-y-2">
               <li className="text-sm">Child Psychology</li>
               <li className="text-sm">Family Therapy</li>

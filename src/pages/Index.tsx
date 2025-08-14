@@ -22,10 +22,18 @@ const Index = () => {
     {
       id: "jozsa-balazs",
       name: "Józsa Balázs",
-      title: "Pszichológus",
-      specialties: ["Párterápeuta", "Családterapeuta"],
-      image: "https://static.wixstatic.com/media/8f8a9a_a33a678f261f40458c48bd96f7c574dc.jpg/v1/fill/w_496,h_800,al_c,q_85,enc_avif,quality_auto/8f8a9a_a33a678f261f40458c48bd96f7c574dc.jpg",
-      shortBio: "Egy elektornikai szakközépiskolába jártam, és gyengeáramű műszerésznek tanultam, amikor testvérem történeteinek hatására eldöntöttem, hogy pszichológus leszek. Nem volt egyszerű. Először programozó matematikát tanultam, majd később pszichológát."
+      title: "Family Therapist",
+      specialties: ["Család terápia", "Pár- és családterápia", "Gyermekpszichodráma"],
+      image: "/public/jozsa.jpg",
+      shortBio: "Dinamikus és rendszerszemléletben dolgozik, munkájának középpontjában a kapcsolatok és kapcsolódások mélyebb megértése áll. Gyermekekkel, felnőttekkel és családokkal foglalkozik egyéni és kapcsolati nehézségek esetén, a harmonikusabb élet felé vezető úton."
+    },
+    {
+      id: "szentes-annamaria",
+      name: "Dr. Szentes Annamária",
+      title: "Alapító, szakmai vezető",
+      specialties: ["Gyermek szakpszichológia", "Pár- és családterápia", "Meseterápia", "Gyermekpszichodráma"],
+      image: "/public/szentes.jpg",
+      shortBio: "Klinikai gyermek szakpszichológus, pár- és családterapeuta, meseterapeuta és gyermekpszichodráma-vezető."
     }
   ];
 
@@ -39,7 +47,7 @@ const Index = () => {
         <section className="section-padding bg-white">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="text-therapy-dark mb-4">Our Services</h2>
+              <h2 className="text-therapy-dark mb-4">Szolgáltatásaink</h2>
               <p className="text-therapy-gray max-w-2xl mx-auto">
               Pszichológiai rendelőnk magas színvonalú szakpszichológiai szolgáltatásokat nyújt a Szentendrén és a környéken élő gyerekeknek, felnőtteknek, pároknak és családoknak.
               Sokéves tapasztalattal rendelkező szakpszichológus kollégáink elfogadó és biztonságos környezetben támogatják a hozzánk fordulókat a mindennapi kihívások kezelésében.
@@ -67,7 +75,7 @@ const Index = () => {
             <div className="text-center mt-12">
               <Link to="/szolgaltatasok">
                 <Button variant="outline" className="border-therapy-blue text-therapy-blue hover:bg-therapy-blue/10">
-                  View All Services
+                  Összes terápia megtekintése
                 </Button>
               </Link>
             </div>
@@ -132,9 +140,9 @@ const Index = () => {
         <section className="section-padding bg-white">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="text-therapy-dark mb-4">Meet Our Psychologists</h2>
+              <h2 className="text-therapy-dark mb-4">Szakembereink</h2>
               <p className="text-therapy-gray max-w-2xl mx-auto">
-                Our team of experienced professionals is dedicated to supporting your mental health journey.
+              Ismerje meg pszichológusainkat, akik elkötelezettek az ön és családja mentális egészségének támogatásában. Minden szakemberünk különböző területeken szerzett tapasztalatokkal rendelkezik, hogy a legjobb ellátást nyújthassuk Önnek.
               </p>
             </div>
 
@@ -155,7 +163,7 @@ const Index = () => {
             <div className="text-center mt-12">
               <Link to="/pszichologusok">
                 <Button variant="outline" className="border-therapy-blue text-therapy-blue hover:bg-therapy-blue/10">
-                  Meet All Our Psychologists
+                  További szakembereink
                 </Button>
               </Link>
             </div>
