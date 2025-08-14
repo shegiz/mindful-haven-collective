@@ -24,19 +24,20 @@ import {
 } from "@/components/ui/card";
 
 const psychologists = [
-  { id: "dr-smith", name: "Dr. Emily Smith" },
-  { id: "dr-johnson", name: "Dr. Michael Johnson" },
-  { id: "dr-williams", name: "Dr. Sarah Williams" },
-  { id: "dr-brown", name: "Dr. David Brown" },
+  { id: "jeney-gabriella", name: "Jeney Gabriella" },
+  { id: "jozsa-balazs", name: "Józsa Balázs" },
+  { id: "szentes-annamaria", name: "Dr. Szentes Annamária" },
+  { id: "vasarhelyi-kriszta", name: "Vásárhelyi Kriszta" },
+  { id: "pajer-lilla", name: "Pajer Lilla" },
+  { id: "lencses-anita", name: "Lencsés Anita }
 ];
 
 const services = [
-  { id: "child-psychology", name: "Child Psychology" },
-  { id: "family-therapy", name: "Family Therapy" },
-  { id: "tale-therapy", name: "Tale Therapy" },
-  { id: "child-psychodrama", name: "Child Psychodrama" },
-  { id: "individual-therapy", name: "Individual Therapy" },
-  { id: "couple-counseling", name: "Couple Counseling" },
+  { id: "egyeni", name: "Egyéni gyermekterápia" },
+  { id: "tanacsadas", name: "Pszichológiai tanácsadás" },
+  { id: "par", name: "Pár- és családterápia" },
+  { id: "onlina", name: "Online párterápia" },
+  { id: "csoport", name: "Csoportterápiák" }
 ];
 
 const BookingForm: React.FC = () => {
