@@ -94,7 +94,7 @@ export const translations: Record<string, Translations> = {
     // Navbar
     home: 'Főoldal',
     aboutUs: 'Bemutatkozás',
-    //practice: 'A Rendelő',
+    practice: 'A Rendelő',
     psychologists: 'Szakemberek',
     services: 'Szolgáltatások',
     contact: 'Árak / Kapcsolat',
