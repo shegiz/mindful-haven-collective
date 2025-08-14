@@ -23,7 +23,6 @@ const Contact = () => {
               
               <div className="bg-white p-8 rounded-lg shadow-sm">
                 <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Send Us a Message</h2>
-                <ContactForm />
               </div>
 
               {/* Contact Form */}
