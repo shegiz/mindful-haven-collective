@@ -27,10 +27,10 @@ const Contact = () => {
                   <p className="text-therapy-gray mb-6">
                     Az árak a módszer és a szakemberek végzettségtől és szakmai tapasztalatától függően változnak. <br />
                     A szolgáltatások ára a következőképpen alakul: <br />
-                    Egyéni terápia, tanácsadás:15000-20000HUF/alkalom (50 perc) <br />
-                    Pár-és családterápia:/ 50-55000/alkalom (90 perc) <br />
-                    Gyermekpszichodráma csoport: 7500/alkalom (60 perc) <br />
-                    Irodalomterápiás csoport: 6000-8000/alkalom (120 perc) 
+                    <b>Egyéni terápia, tanácsadás</b>: 15000-20000HUF/alkalom (50 perc) <br />
+                    <b>Pár-és családterápia</b>: 50-55000/alkalom (90 perc) <br />
+                    <b>Gyermekpszichodráma csoport</b>: 7500/alkalom (60 perc) <br />
+                    <b>Irodalomterápiás csoport</b>: 6000-8000/alkalom (120 perc) 
                   </p>
                   <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Send Us a Message</h2>
                   <ContactForm />
@@ -39,17 +39,17 @@ const Contact = () => {
               {/* Contact Information */}
               <div className="space-y-8">
                 <div className="bg-white p-8 rounded-lg shadow-sm">
-                  <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Contact Information</h2>
+                  <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Kapcsolat</h2>
                   <div className="space-y-6">
                     <div className="flex items-start space-x-4">
                       <div className="mt-1">
                         <MapPin className="w-6 h-6 text-therapy-blue" />
                       </div>
                       <div>
-                        <h3 className="text-lg font-medium text-therapy-dark">Address</h3>
+                        <h3 className="text-lg font-medium text-therapy-dark">Cím</h3>
                         <p className="text-therapy-gray">
-                          123 Therapy Lane<br />
-                          Wellness City, WC 12345
+                          Bükkös part 61.<br />
+                          2000 Szentendre
                         </p>
                       </div>
                     </div>
@@ -59,8 +59,8 @@ const Contact = () => {
                         <Phone className="w-6 h-6 text-therapy-blue" />
                       </div>
                       <div>
-                        <h3 className="text-lg font-medium text-therapy-dark">Phone</h3>
-                        <p className="text-therapy-gray">(123) 456-7890</p>
+                        <h3 className="text-lg font-medium text-therapy-dark">Telefon</h3>
+                        <p className="text-therapy-gray">?</p>
                       </div>
                     </div>
 
@@ -70,7 +70,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="text-lg font-medium text-therapy-dark">Email</h3>
-                        <p className="text-therapy-gray">contact@mindfulhaven.com</p>
+                        <p className="text-therapy-gray">kapcsolat@b61kozpont.hu</p>
                       </div>
                     </div>
 
@@ -79,11 +79,12 @@ const Contact = () => {
                         <Clock className="w-6 h-6 text-therapy-blue" />
                       </div>
                       <div>
-                        <h3 className="text-lg font-medium text-therapy-dark">Hours</h3>
+                        <h3 className="text-lg font-medium text-therapy-dark">Nyitvatartás</h3>
                         <p className="text-therapy-gray">
-                          Monday - Friday: 9am - 7pm<br />
-                          Saturday: 10am - 4pm<br />
-                          Sunday: Closed
+                          Hétfő - Péntek: 9-18:00<br />
+                          Szombat: 10-16:00<br />
+                          Vasárnap: Zárva<br />
+                          Bejelentkezés szükséges!
                         </p>
                       </div>
                     </div>
@@ -92,11 +93,11 @@ const Contact = () => {
 
                 {/* Map or Additional Information */}
                 <div className="bg-white p-8 rounded-lg shadow-sm">
-                  <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Location</h2>
+                  <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Térkép</h2>
                   <div className="aspect-video bg-gray-200 rounded-md overflow-hidden">
                     {/* Embed a map here or use an image */}
                     <div className="w-full h-full flex items-center justify-center">
-                      <p className="text-therapy-gray">Map Placeholder</p>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190.23600517832966!2d19.065864668102847!3d47.66988347394846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741d67aaad8a25f%3A0x40752374c8de13f6!2sSzentendre%2C%20B%C3%BCkk%C3%B6s%20part%2061%2C%202000%20Magyarorsz%C3%A1g!5e0!3m2!1shu!2sat!4v1755164332063!5m2!1shu!2sat" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                   <p className="mt-4 text-therapy-gray">
