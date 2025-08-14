@@ -9,8 +9,6 @@ interface HeroSectionProps {
   imageSrc?: string;
   primaryButtonText?: string;
   primaryButtonLink?: string;
-  secondaryButtonText?: string;
-  secondaryButtonLink?: string;
   imagePosition?: 'left' | 'right';
 }
 
