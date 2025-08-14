@@ -15,13 +15,13 @@ interface HeroSectionProps {
 }
 
 const HeroSection: React.FC<HeroSectionProps> = ({
-  title = "Itt kezdődik az utazásod a mentális jólét felé",
-  subtitle = "Egyéni, családi és gyermekpszichológiai szolgáltatásokat nyújtunk együttérzően és professzionálisan, biztonságos és támogató környezetben.",
+  title = "Gyermek, pár-és családterápiák és csoportterápiák, magas szakmai színvonalú és támogató környezetben.",
+  subtitle = "Látogasson el hozzánk, ahol a lelki egészség és a jólét az első.",
   imageSrc = "https://images.unsplash.com/photo-1721322800607-8c38375eef04?q=80&w=2000&auto=format&fit=crop",
   primaryButtonText = "Foglaljon időpontot",
   primaryButtonLink = "/idopontfoglalas",
   secondaryButtonText = "Ismerjen meg minket",
-  secondaryButtonLink = "/pszichologusok",
+  secondaryButtonLink = "/rolunk",
   imagePosition = "right"
 }) => {
   return (

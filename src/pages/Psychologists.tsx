@@ -69,15 +69,19 @@ const Psychologists = () => {
         <section className="section-padding bg-therapy-beige">
           <div className="container-custom max-w-4xl">
             <div className="text-center mb-12">
-              <h2 className="text-therapy-dark mb-4">Our Professional Standards</h2>
+              <h2 className="text-therapy-dark mb-4">
+                Szakmai alapelvek és Etikai Irányelvek
+              </h2>
               <p className="text-therapy-gray max-w-2xl mx-auto">
-                What you can expect from our licensed professionals.
+                
+                magyar pszichológusaink elkötelezettek a legmagasabb szakmai és etikai normák betartása mellett. Minden szakemberünk rendelkezik a szükséges képesítésekkel és engedélyekkel, és folyamatosan továbbképzik magukat, hogy naprakészen követhessék a legújabb kutatásokat és terápiás megközelítéseket.
               </p>
             </div>
 
             <div className="prose prose-lg max-w-none text-therapy-gray">
               <p>
-                At MindfulHaven, all our psychologists hold advanced degrees in their fields and are licensed by the appropriate state boards. We maintain the highest ethical standards and are committed to continuing education to stay current with the latest research and therapeutic approaches.
+                
+                Minden pszichológusunk szigorúan betartja a Magyar Pszichológiai Társaság etikai irányelveit, amelyek biztosítják, hogy a kliensek biztonságban és tiszteletben érezzék magukat a terápiás folyamat során. A pszichológusok folyamatosan részt vesznek szakmai továbbképzéseken és szupervíziókon, hogy fenntartsák tudásukat és készségeiket.
               </p>
               <p>
                 Our team engages in regular peer consultation to ensure we're providing the best possible care. This collaborative approach allows us to draw on the collective wisdom and diverse expertise of our entire staff when addressing complex cases.

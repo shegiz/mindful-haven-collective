@@ -22,7 +22,7 @@ const Navbar = () => {
     //{ title: t('home'), href: "/" },
     { title: t('aboutUs'), href: "/rolunk" },
     //{ title: t('practice'), href: "/rendelo" },
-    //{ title: t('psychologists'), href: "/pszichologusok" },
+    { title: t('psychologists'), href: "/pszichologusok" },
     { title: t('services'), href: "/szolgaltatasok" },
     { title: t('contact'), href: "/kapcsolat" },
   ];

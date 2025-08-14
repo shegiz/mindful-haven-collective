@@ -184,7 +184,7 @@ const Services = () => {
             <p className="max-w-2xl mx-auto mb-8 opacity-90">
               Foglaljon időpontot még ma, és kezdje el a lelki egészsége fejlesztését szakértőink segítségével. Legyen szó egyéni terápiáról, párkapcsolati tanácsadásról vagy csoportos foglalkozásokról, mi itt vagyunk, hogy támogassuk Önt.
             </p>
-            <Link to="/booking">
+            <Link to="/idopontfoglalas">
               <Button className="bg-white text-therapy-blue hover:bg-white/90 px-8 py-6">
                 Időpontfoglalás
               </Button>
