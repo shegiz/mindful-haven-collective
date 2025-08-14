@@ -92,8 +92,6 @@ const Services = () => {
           imageSrc="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
           primaryButtonText="Book an Appointment"
           primaryButtonLink="/booking"
-          secondaryButtonText="Contact Us"
-          secondaryButtonLink="/contact"
           imagePosition="left"
         />
 

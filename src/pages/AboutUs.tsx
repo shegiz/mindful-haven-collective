@@ -16,8 +16,6 @@ const AboutUs = () => {
           imageSrc="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
           primaryButtonText="Meet Our Team"
           primaryButtonLink="/psychologists"
-          secondaryButtonText="Our Services"
-          secondaryButtonLink="/services"
           imagePosition="left"
         />
 

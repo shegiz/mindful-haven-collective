@@ -67,8 +67,6 @@ const Psychologists = () => {
           imageSrc="/csapat.jpg"
           primaryButtonText="Foglaljon Időpontot"
           primaryButtonLink="/booking"
-          secondaryButtonText="Szolgáltatásaink"
-          secondaryButtonLink="/services"
         />
 
         {/* Team */}

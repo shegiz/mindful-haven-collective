@@ -9,8 +9,6 @@ interface HeroSectionProps {
   imageSrc?: string;
   primaryButtonText?: string;
   primaryButtonLink?: string;
-  secondaryButtonText?: string;
-  secondaryButtonLink?: string;
   imagePosition?: 'left' | 'right';
 }
 
@@ -20,8 +18,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({
   imageSrc = "/public/szoba1.jpg",
   primaryButtonText = "Foglaljon időpontot",
   primaryButtonLink = "/idopontfoglalas",
-  secondaryButtonText = "Tudjon meg többet",
-  secondaryButtonLink = "/rolunk",
   imagePosition = "right"
 }) => {
   return (
@@ -36,11 +32,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({
               <Link to={primaryButtonLink}>
                 <Button className="bg-therapy-blue hover:bg-therapy-blue/90 px-8 py-6 rounded-md w-full sm:w-auto">
                   {primaryButtonText}
-                </Button>
-              </Link>
-              <Link to={secondaryButtonLink}>
-                <Button variant="outline" className="border-therapy-blue text-therapy-blue hover:bg-therapy-blue/10 px-8 py-6 rounded-md w-full sm:w-auto">
-                  {secondaryButtonText}
                 </Button>
               </Link>
             </div>
