@@ -95,8 +95,8 @@ export const translations: Record<string, Translations> = {
     home: 'Főoldal',
     aboutUs: 'Bemutatkozás',
     practice: 'A Rendelő',
-    psychologists: 'Szakemberek',
-    services: 'Szolgáltatások',
+    psychologists: 'Szakembereink',
+    services: 'Szolgáltatásaink',
     contact: 'Árak / Kapcsolat',
     bookAppointment: 'Időpontfoglalás',
 
