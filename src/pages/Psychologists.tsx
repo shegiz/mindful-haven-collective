@@ -62,12 +62,12 @@ const Psychologists = () => {
       <Navbar />
       <main>
         <HeroSection 
-          title="Our Psychologists"
-          subtitle="Meet our team of experienced, compassionate professionals dedicated to supporting your mental health journey."
-          imageSrc="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
-          primaryButtonText="Book an Appointment"
+          title="Szakemberei"
+          subtitle="Ismerje meg pszichológusainkat, akik elkötelezettek az ön és családja mentális egészségének támogatásában."
+          imageSrc="/csapat.jpg"
+          primaryButtonText="Foglaljon Időpontot"
           primaryButtonLink="/booking"
-          secondaryButtonText="View Services"
+          secondaryButtonText="Szolgáltatásaink"
           secondaryButtonLink="/services"
         />
 
