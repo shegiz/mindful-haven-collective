@@ -13,17 +13,20 @@ const Contact = () => {
         <section className="py-12 md:py-20 bg-therapy-beige">
           <div className="container-custom mx-auto">
             <div className="text-center mb-12">
-              <h1 className="text-4xl md:text-5xl font-bold text-therapy-dark mb-4">Contact Us</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-therapy-dark mb-4">Kapcsolat és Árak</h1>
               <p className="text-lg text-therapy-gray max-w-2xl mx-auto">
-                We're here to answer your questions and provide support. Reach out to us through the form below 
-                or using our contact information.
+                Kérjük, vegye fel velünk a kapcsolatot, ha bármilyen kérdése van szolgáltatásainkkal vagy árainkkal kapcsolatban. Szakértő csapatunk örömmel segít Önnek eligibilis terápiás lehetőségekben és időpontfoglalásban.
               </p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              <div className="space-y-8">
+                <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Árak</h2>
+              </div>
+
               {/* Contact Form */}
               <div className="bg-white p-8 rounded-lg shadow-sm">
-                <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Send Us a Message</h2>
+                <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Küldjön üzenetet nekünk</h2>
                 <ContactForm />
               </div>
 
