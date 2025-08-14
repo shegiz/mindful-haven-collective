@@ -12,12 +12,12 @@ import Footer from '@/components/Footer';
 const Index = () => {
   const featuredPsychologists = [
     {
-      id: "dr-szentes-annamaria",
-      name: "Dr.Szentes Annamária",
-      title: "Klinikai gyermekszakpszichológus",
-      specialties: ["Családterapeuta", "Meseterapeuta"],
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-      shortBio: "Dr. Smith specializes in child psychology and family therapy with over 10 years of experience helping families thrive."
+      id: "szentes-annamaria",
+      name: "Dr. Szentes Annamária",
+      title: "Alapító, szakmai vezető",
+      specialties: ["Gyermek szakpszichológia", "Pár- és családterápia", "Meseterápia", "Gyermekpszichodráma"],
+      image: "/public/szentes.jpg",
+      shortBio: "Klinikai gyermek szakpszichológus, pár- és családterapeuta, meseterapeuta és gyermekpszichodráma-vezető."
     },
     {
       id: "jozsa-balazs",
@@ -28,12 +28,12 @@ const Index = () => {
       shortBio: "Dinamikus és rendszerszemléletben dolgozik, munkájának középpontjában a kapcsolatok és kapcsolódások mélyebb megértése áll. Gyermekekkel, felnőttekkel és családokkal foglalkozik egyéni és kapcsolati nehézségek esetén, a harmonikusabb élet felé vezető úton."
     },
     {
-      id: "szentes-annamaria",
-      name: "Dr. Szentes Annamária",
-      title: "Alapító, szakmai vezető",
-      specialties: ["Gyermek szakpszichológia", "Pár- és családterápia", "Meseterápia", "Gyermekpszichodráma"],
-      image: "/public/szentes.jpg",
-      shortBio: "Klinikai gyermek szakpszichológus, pár- és családterapeuta, meseterapeuta és gyermekpszichodráma-vezető."
+      id: "jeney-gabriella",
+      name: "Jeney Gabriella",
+      title: "Gyermekpszichodráma vezető, pár-és családterapeuta jelölt",
+      specialties: ["Gyermekpszichodráma", "Pár- és családterápia"],
+      image: "/public/jeney.jpg",
+      shortBio: "Családterápiában, felnőtt- és gyermekpszichodrámában, valamint érzelmi fókuszú párterápiában képzett pszichológus. Gyermekpszichodráma csoportokat vezet Józsa Balázzsal."
     }
   ];
 
