@@ -86,9 +86,11 @@ const Index = () => {
         <section className="section-padding bg-therapy-beige">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="text-therapy-dark mb-4">Why Choose MindfulHaven</h2>
-              <p className="text-therapy-gray max-w-2xl mx-auto">
-                At MindfulHaven, we're committed to providing exceptional care in a warm and supportive environment.
+              <h2 className="text-therapy-dark mb-4">
+                Miért válasszon minket?
+              </h2>
+              <p className="text-therapy-gray max-w-2xl mx-auto"> 
+                Pszichológiai rendelőnk elkötelezett a magas színvonalú, személyre szabott pszichológiai ellátás mellett. Szakértő csapatunk különböző területeken szerzett tapasztalatokkal rendelkezik, hogy a legjobb támogatást nyújthassuk Önnek és családjának.
               </p>
             </div>
 
@@ -97,9 +99,11 @@ const Index = () => {
                 <div className="mb-4 mx-auto w-16 h-16 bg-therapy-blue-light rounded-full flex items-center justify-center">
                   <Award className="h-7 w-7 text-therapy-blue" />
                 </div>
-                <h3 className="text-xl font-medium text-therapy-dark mb-2">Expert Team</h3>
+                <h3 className="text-xl font-medium text-therapy-dark mb-2">
+                  Tapasztalt Szakemberek
+                </h3>
                 <p className="text-therapy-gray text-sm">
-                  Our highly qualified psychologists bring years of specialized experience and training.
+                  Csapatunk magasan képzett pszichológusokból áll, akik különböző területeken szerzett tapasztalatokkal rendelkeznek.
                 </p>
               </div>
 
@@ -107,9 +111,11 @@ const Index = () => {
                 <div className="mb-4 mx-auto w-16 h-16 bg-therapy-green-light rounded-full flex items-center justify-center">
                   <Users className="h-7 w-7 text-therapy-green" />
                 </div>
-                <h3 className="text-xl font-medium text-therapy-dark mb-2">Personalized Care</h3>
+                <h3 className="text-xl font-medium text-therapy-dark mb-2">
+                  Személyre szabott Terápia
+                </h3>
                 <p className="text-therapy-gray text-sm">
-                  We create tailored treatment plans that address your unique needs and goals.
+                  Minden páciens számára egyedi kezelési tervet készítünk, amely figyelembe veszi az Ön egyéni igényeit és céljait.
                 </p>
               </div>
 
@@ -117,9 +123,11 @@ const Index = () => {
                 <div className="mb-4 mx-auto w-16 h-16 bg-therapy-blue-light rounded-full flex items-center justify-center">
                   <Smile className="h-7 w-7 text-therapy-blue" />
                 </div>
-                <h3 className="text-xl font-medium text-therapy-dark mb-2">Comfortable Setting</h3>
+                <h3 className="text-xl font-medium text-therapy-dark mb-2">
+                  Biztonságos és Támogató Környezet
+                </h3>
                 <p className="text-therapy-gray text-sm">
-                  Our practice is designed to be a safe, welcoming space for healing and growth.
+                  Rendelőnk barátságos és elfogadó légkört biztosít, ahol Ön szabadon kifejezheti érzéseit és gondolatait.
                 </p>
               </div>
 
@@ -127,9 +135,11 @@ const Index = () => {
                 <div className="mb-4 mx-auto w-16 h-16 bg-therapy-green-light rounded-full flex items-center justify-center">
                   <Clock className="h-7 w-7 text-therapy-green" />
                 </div>
-                <h3 className="text-xl font-medium text-therapy-dark mb-2">Flexible Scheduling</h3>
+                <h3 className="text-xl font-medium text-therapy-dark mb-2">
+                  Rugalmas Időpontok
+                </h3>
                 <p className="text-therapy-gray text-sm">
-                  We offer evening appointments and telehealth options to accommodate your busy life.
+                  Rugalmas időpontokat kínálunk, hogy a terápia illeszkedjen az Ön életviteléhez. Online és személyes konzultációkat is biztosítunk.
                 </p>
               </div>
             </div>
