@@ -18,7 +18,7 @@ const Psychologists = () => {
     {
       id: "jozsa-balazs",
       name: "Józsa Balázs",
-      title: "Family Therapist",
+      title: "Klinikai szakpszichológus, pár-, és családterapeuta, autogén tréner",
       specialties: ["Család terápia", "Pár- és családterápia", "Gyermekpszichodráma"],
       image: "/public/jozsa.jpg",
       shortBio: "Dinamikus és rendszerszemléletben dolgozik, munkájának középpontjában a kapcsolatok és kapcsolódások mélyebb megértése áll. Gyermekekkel, felnőttekkel és családokkal foglalkozik egyéni és kapcsolati nehézségek esetén, a harmonikusabb élet felé vezető úton."
@@ -73,9 +73,11 @@ const Psychologists = () => {
         <section className="section-padding bg-white">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="text-therapy-dark mb-4">Meet Our Team</h2>
+              <h2 className="text-therapy-dark mb-4">
+                Szakértői csapatunk
+              </h2>
               <p className="text-therapy-gray max-w-2xl mx-auto">
-                Our diverse team of psychologists brings specialized expertise to address a wide range of needs.
+                Pszichológiai rendelőnk magasan képzett szakemberekből áll, ismerkedjen meg velük.
               </p>
             </div>
 
@@ -110,17 +112,7 @@ const Psychologists = () => {
 
             <div className="prose prose-lg max-w-none text-therapy-gray">
               <p>
-                
                 Minden pszichológusunk szigorúan betartja a Magyar Pszichológiai Társaság etikai irányelveit, amelyek biztosítják, hogy a kliensek biztonságban és tiszteletben érezzék magukat a terápiás folyamat során. A pszichológusok folyamatosan részt vesznek szakmai továbbképzéseken és szupervíziókon, hogy fenntartsák tudásukat és készségeiket.
-              </p>
-              <p>
-                Our team engages in regular peer consultation to ensure we're providing the best possible care. This collaborative approach allows us to draw on the collective wisdom and diverse expertise of our entire staff when addressing complex cases.
-              </p>
-              <p>
-                We believe in transparent communication and will always provide clear explanations about our therapeutic approaches, expected outcomes, and practice policies. You'll never be left wondering about the direction of your treatment or why particular techniques are being used.
-              </p>
-              <p>
-                Most importantly, we recognize that the foundation of effective therapy is a strong therapeutic relationship. Our psychologists prioritize creating a safe, trusting connection with each client, knowing that this relationship is essential to the healing process.
               </p>
             </div>
           </div>
