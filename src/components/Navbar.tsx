@@ -50,18 +50,10 @@ const Navbar = () => {
               {t('bookAppointment')}
             </Button>
           </Link>
-          <LanguageSelector
-            currentLanguage={language}
-            onLanguageChange={handleLanguageChange}
-          />
         </div>
 
         {/* Mobile menu button */}
-        <div className="md:hidden flex items-center gap-2">
-          <LanguageSelector
-            currentLanguage={language}
-            onLanguageChange={handleLanguageChange}
-          />
+        <div className="md:hidden flex items-center">
           <button
             onClick={toggleMobileMenu}
             className="text-therapy-dark focus:outline-none"
