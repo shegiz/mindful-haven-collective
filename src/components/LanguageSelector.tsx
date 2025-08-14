@@ -34,7 +34,7 @@ const LanguageSelector = ({ currentLanguage, onLanguageChange }: LanguageSelecto
         {languages.map((language) => (
           <DropdownMenuItem
             key={language.code}
-            className={`${currentLanguage === language.code ? 'font-bold bg-accent/10' : ''}`}
+            className={currentLanguage === language.code ? 'font-bold bg-accent/10' : ''}
             onClick={() => onLanguageChange(language.code)}
           >
             {language.name}
