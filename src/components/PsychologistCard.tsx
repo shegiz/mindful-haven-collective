@@ -32,7 +32,7 @@ const PsychologistCard: React.FC<PsychologistCardProps> = ({
     <Card className="overflow-hidden transition-all duration-200 hover:shadow-lg h-full">
       <div className="flex flex-col md:flex-row h-full">
         {/* Left side: Photo, name, title, specialties, button */}
-        <div className="md:w-1/2 flex flex-col">
+        <div className="md:w-1/3 flex flex-col">
           <div className="h-48 md:h-64 overflow-hidden">
             <img
               src={image}
@@ -66,7 +66,7 @@ const PsychologistCard: React.FC<PsychologistCardProps> = ({
         </div>
         
         {/* Right side: Introduction */}
-        <div className="md:w-1/2 p-6 flex items-center">
+        <div className="md:w-2/3 p-6 flex items-center">
           <p className="text-sm text-therapy-gray leading-relaxed">{shortBio}</p>
         </div>
       </div>
