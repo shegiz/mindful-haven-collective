@@ -1,8 +1,7 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Smile, Users, Award, Clock } from 'lucide-react';
-import HeroSection from '@/components/HeroSection';
+import HeroCarousel from '@/components/HeroCarousel';
 import ServiceCard from '@/components/ServiceCard';
 import PsychologistCard from '@/components/PsychologistCard';
 import { Button } from '@/components/ui/button';
@@ -41,7 +40,7 @@ const Index = () => {
     <>
       <Navbar />
       <main>
-        <HeroSection />
+        <HeroCarousel />
 
         {/* Featured Services */}
         <section className="section-padding bg-white">
