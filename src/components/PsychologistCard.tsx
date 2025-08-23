@@ -29,38 +29,47 @@ const PsychologistCard: React.FC<PsychologistCardProps> = ({
   shortBio,
 }) => {
   return (
-    <Card className="overflow-hidden transition-all duration-200 hover:shadow-lg h-full flex flex-col">
-      <div className="h-64 overflow-hidden">
-        <img
-          src={image}
-          alt={name}
-          className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-        />
-      </div>
-      <CardHeader>
-        <CardTitle className="text-xl text-therapy-dark">{name}</CardTitle>
-        <CardDescription>{title}</CardDescription>
-      </CardHeader>
-      <CardContent className="flex-grow">
-        <p className="text-sm text-therapy-gray mb-4">{shortBio}</p>
-        <div className="flex flex-wrap gap-2 mt-4">
-          {specialties.map((specialty, index) => (
-            <span 
-              key={index}
-              className="px-3 py-1 text-xs rounded-full bg-therapy-blue-light text-therapy-blue"
-            >
-              {specialty}
-            </span>
-          ))}
+    <Card className="overflow-hidden transition-all duration-200 hover:shadow-lg h-full">
+      <div className="flex flex-col md:flex-row h-full">
+        {/* Left side: Photo, name, title, specialties, button */}
+        <div className="md:w-1/2 flex flex-col">
+          <div className="h-48 md:h-64 overflow-hidden">
+            <img
+              src={image}
+              alt={name}
+              className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+            />
+          </div>
+          <div className="p-6 flex flex-col flex-grow">
+            <CardTitle className="text-xl text-therapy-dark mb-2">{name}</CardTitle>
+            <CardDescription className="mb-4">{title}</CardDescription>
+            
+            <div className="flex flex-wrap gap-2 mb-6">
+              {specialties.map((specialty, index) => (
+                <span 
+                  key={index}
+                  className="px-3 py-1 text-xs rounded-full bg-therapy-blue-light text-therapy-blue"
+                >
+                  {specialty}
+                </span>
+              ))}
+            </div>
+            
+            <div className="mt-auto">
+              <Link to={`/idopontfoglalas?psychologist=${id}`} className="w-full">
+                <Button className="w-full bg-therapy-blue hover:bg-therapy-blue/90">
+                  Foglaljon időpontot
+                </Button>
+              </Link>
+            </div>
+          </div>
         </div>
-      </CardContent>
-      <CardFooter>
-        <Link to={`/idopontfoglalas?psychologist=${id}`} className="w-full">
-          <Button className="w-full bg-therapy-blue hover:bg-therapy-blue/90">
-            Foglaljon időpontot
-          </Button>
-        </Link>
-      </CardFooter>
+        
+        {/* Right side: Introduction */}
+        <div className="md:w-1/2 p-6 flex items-center">
+          <p className="text-sm text-therapy-gray leading-relaxed">{shortBio}</p>
+        </div>
+      </div>
     </Card>
   );
 };
