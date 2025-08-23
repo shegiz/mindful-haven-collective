@@ -21,7 +21,7 @@ const Contact = () => {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
 
-                {/* Contact Form */}
+                {/* Pricing Section */}
                 <div className="bg-white p-8 rounded-lg shadow-sm">
                   <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Áraink</h2>
                   <p className="text-therapy-gray mb-6">
@@ -32,7 +32,11 @@ const Contact = () => {
                     <b>Gyermekpszichodráma csoport</b>: 7500/alkalom (60 perc) <br />
                     <b>Irodalomterápiás csoport</b>: 6000-8000/alkalom (120 perc) 
                   </p>
-                  <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Send Us a Message</h2>
+                </div>
+
+                {/* Contact Form */}
+                <div className="bg-white p-8 rounded-lg shadow-sm">
+                  <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Üzenjen nekünk</h2>
                   <ContactForm />
                 </div>
     
