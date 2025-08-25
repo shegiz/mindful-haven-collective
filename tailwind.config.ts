@@ -70,7 +70,7 @@ export default {
 					'green-light': '#E5F1E8',
 					'beige': '#F9F5F0',
 					'gray': '#6B7280',
-					'dark': '#2D3748'
+					'dark': '#444c59'
 				}
 			},
 			borderRadius: {
