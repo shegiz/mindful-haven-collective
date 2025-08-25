@@ -69,17 +69,17 @@ const Index = () => {
               <ServiceCard
                 title="Pár- és családterápia"
                 description="A pár-és családterápia olyan terápiás megközelítés, amely az egyén nehézségeit a kapcsolati rendszerében vizsgálja."
-                icon={<Chat className="h-6 w-6" />}
+                icon={<Award className="h-6 w-6" />}
               />
               <ServiceCard
                 title="Online párterápia"
                 description="A rendszerszemléletű párterápia egy olyan terápiás megközelítés, amely a párkapcsolatot nem egyének összességének, hanem rendszerként kezeli."
-                icon={<Video-Camera className="h-6 w-6" />}
+                icon={<Award className="h-6 w-6" />}
               />
               <ServiceCard
                 title="Csoportterápiák"
                 description="Központunkban önismereti, meseterápiás, gyermekpszichodráma, irodalomterápiás és tematikus csoportokat tartunk."
-                icon={<User-Group className="h-6 w-6" />}
+                icon={<Award className="h-6 w-6" />}
               />              
             </div>
 
