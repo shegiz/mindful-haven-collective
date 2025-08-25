@@ -44,7 +44,7 @@ const Booking = () => {
                   <div className="space-y-4">
                     <div className="flex items-center space-x-3">
                       <Phone className="w-5 h-5 text-therapy-blue" />
-                      <p className="text-therapy-gray">anna száma?</p>
+                      <p className="text-therapy-gray"><a href="tel:+36302282659">+36-30-228-2659</a></p>
                     </div>
                     <div className="flex items-center space-x-3">
                       <Mail className="w-5 h-5 text-therapy-blue" />
