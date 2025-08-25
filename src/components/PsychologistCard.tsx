@@ -59,7 +59,13 @@ const PsychologistCard: React.FC<PsychologistCardProps> = ({
         
         {/* Right side: Introduction */}
         <div className="md:w-2/3 p-6 flex flex-col justify-between">
-          <p className="text-sm text-therapy-gray leading-relaxed mb-6">{shortBio}</p>
+          <div className="text-sm text-therapy-gray leading-relaxed mb-6">
+            {shortBio.split('\n').map((line, index) => (
+              <p key={index} className={index > 0 ? 'mt-4' : ''}>
+                {line}
+              </p>
+            ))}
+          </div>
           <div>
             <Link to={`/idopontfoglalas?psychologist=${id}`}>
               <Button className="w-full bg-therapy-blue hover:bg-therapy-blue/90">
