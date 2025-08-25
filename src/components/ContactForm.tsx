@@ -65,7 +65,7 @@ const ContactForm = () => {
             name="name" 
             value={formData.name} 
             onChange={handleChange} 
-            placeholder="Your name" 
+            placeholder="Az Ön teljes neve" 
             required 
           />
         </div>
@@ -77,7 +77,7 @@ const ContactForm = () => {
             type="email" 
             value={formData.email} 
             onChange={handleChange} 
-            placeholder="Your email address" 
+            placeholder="Az Ön email címe" 
             required 
           />
         </div>
@@ -91,7 +91,7 @@ const ContactForm = () => {
             name="phone" 
             value={formData.phone} 
             onChange={handleChange} 
-            placeholder="Your phone number" 
+            placeholder="Az Ön telefonszáma" 
           />
         </div>
         <div className="space-y-2">
