@@ -53,10 +53,6 @@ const Index = () => {
           <div className="container-custom">
             <div className="text-center mb-12">
               <h2 className="text-therapy-dark mb-4">Szolgáltatásaink</h2>
-              <p className="text-therapy-gray max-w-2xl mx-auto">
-              Pszichológiai rendelőnk magas színvonalú szakpszichológiai szolgáltatásokat nyújt a Szentendrén és a környéken élő gyerekeknek, felnőtteknek, pároknak és családoknak.
-              Sokéves tapasztalattal rendelkező szakpszichológus kollégáink elfogadó és biztonságos környezetben támogatják a hozzánk fordulókat a mindennapi kihívások kezelésében.
-              </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -95,7 +91,7 @@ const Index = () => {
                 Miért válasszon minket?
               </h2>
               <p className="text-therapy-gray max-w-2xl mx-auto"> 
-                Pszichológiai rendelőnk elkötelezett a magas színvonalú, személyre szabott pszichológiai ellátás mellett. Szakértő csapatunk különböző területeken szerzett tapasztalatokkal rendelkezik, hogy a legjobb támogatást nyújthassuk Önnek és családjának.
+                Pszichológiai rendelőnk elkötelezett a magas színvonalú, személyre szabott pszichológiai ellátás mellett. Kollégáink különböző területeken szerzett tapasztalatokkal rendelkeznek, hogy a legjobb támogatást nyújthassák Önnek és családjának.
               </p>
             </div>
 
@@ -145,7 +141,7 @@ const Index = () => {
             <div className="text-center mb-12">
               <h2 className="text-therapy-dark mb-4">Szakembereink</h2>
               <p className="text-therapy-gray max-w-2xl mx-auto">
-              Ismerje meg pszichológusainkat, akik elkötelezettek az ön és családja mentális egészségének támogatásában. Minden szakemberünk különböző területeken szerzett tapasztalatokkal rendelkezik, hogy a legjobb ellátást nyújthassuk Önnek.
+              Ismerje meg széles szakmai profillal rendelkező kollégáinkat, akik közösen hisznek a fejlődés lehetőségében és elkötelezettek a gyerekek, felnőttek és a családok mentális jóllétének támogatásában.
               </p>
             </div>
 
