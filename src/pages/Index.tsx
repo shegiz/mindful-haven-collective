@@ -12,8 +12,8 @@ const Index = () => {
   const featuredPsychologists = [
     {
       name: "Dr. Szentes Annamária",
-      title: "Alapító, szakmai vezető",
-      specialties: ["Gyermek szakpszichológia", "Pár- és családterápia", "Meseterápia", "Gyermekpszichodráma"],
+      title: "Alapító, szakmai vezető, klinikai gyermek szakpszichológus, pár-és családterapeuta, meseterapeuta és gyermekpszichodráma vezető",
+      specialties: ["Egyéni gyermekterápia", "Pár- és családterápia", "Gyermekpszichodráma"],
     },
     {
       name: "Jeney Gabriella",
@@ -22,8 +22,23 @@ const Index = () => {
     },
     {
       name: "Józsa Balázs",
-      title: "Family Therapist",
-      specialties: ["Család terápia", "Pár- és családterápia", "Gyermekpszichodráma"],
+      title: "Klinikai szakpszichológus, pár-, és családterapeuta, autogén tréner",
+      specialties: ["Egyéni gyermekterápia", "Egyéni felnőtt terápia", "Pár- és családterápia", "Autogén tréning"],
+    },
+    {
+      name: "Vásárhelyi Kriszta",
+      title: "Klinikai ifjúsági- és gyermek szakpszichológus",
+      specialties: ["Online pár-és családterápia"],
+    },
+    {
+      name: "Pajer Lilla",
+      title: "Pszichológus",
+      specialties: ["Pszichológiai tanácsadás", "Szülőkonzultáció", "Autogén tréning"],
+    },
+    {
+      name: "Lencsés Anita",
+      title: "Pszichológus, irodalomterapeuta",
+      specialties: ["Egyéni gyermekterápia", "Egyéni felnőtt terápia", "Irodalomterápia"],
     }
   ].sort((a, b) => a.name.localeCompare(b.name));
 
