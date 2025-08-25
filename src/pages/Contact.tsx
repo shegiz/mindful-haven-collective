@@ -27,10 +27,10 @@ const Contact = () => {
                   <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Áraink</h2>
                   <p className="text-therapy-gray mb-6">
                     Az árak a módszer és a szakemberek végzettségtől és szakmai tapasztalatától függően változnak.<br /><br />
-                    <b>Egyéni terápia, tanácsadás</b>: 15.000-20.000.-Ft/alkalom (50 perc) <br />
-                    <b>Pár-és családterápia</b>: 50.000-55.000.-Ft/alkalom (90 perc) <br />
-                    <b>Gyermekpszichodráma csoport</b>: 7500.-Ft/alkalom (60 perc) <br />
-                    <b>Irodalomterápiás csoport</b>: 6000-8000.-Ft/alkalom (120 perc) (120 perc) 
+                    <b>Egyéni terápia, tanácsadás</b>: 15-20.000 Ft/alkalom (50 perc) <br />
+                    <b>Pár-és családterápia</b>: 50-55.000 Ft/alkalom (90 perc) <br />
+                    <b>Gyermekpszichodráma csoport</b>: 7.500 Ft/alkalom (60 perc) <br />
+                    <b>Irodalomterápiás csoport</b>: 6-8.000 Ft/alkalom (120 perc) 
                   </p>
                 </div>
 
@@ -65,7 +65,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="text-lg font-medium text-therapy-dark">Telefon</h3>
-                        <p className="text-therapy-gray">?</p>
+                        <p className="text-therapy-gray">+36-30-228-2659</p>
                       </div>
                     </div>
 
@@ -86,8 +86,8 @@ const Contact = () => {
                       <div>
                         <h3 className="text-lg font-medium text-therapy-dark">Nyitvatartás</h3>
                         <p className="text-therapy-gray">
-                          Hétfő - Péntek: 9-18:00<br />
-                          Szombat: 10-16:00<br />
+                          Hétfő - Péntek:  8.00-20.00<br />
+                          Szombat: 8.00-12.00<br />
                           Vasárnap: Zárva<br />
                           Bejelentkezés szükséges!
                         </p>
