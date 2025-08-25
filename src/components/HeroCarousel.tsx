@@ -77,7 +77,7 @@ const HeroCarousel: React.FC = () => {
     {
       title: "Magas színvonalú és széleskörű pszichológiai szolgáltatásokkal várjuk a hozzánk fordulókat egy elfogadó és támogató környezetben Szentendre belvárosában.",
       subtitle: "",
-      imageSrc: "/public/szoba1.jpg",
+      imageSrc: "/public/b61_img1.jpg",
       primaryButtonText: "Foglaljon időpontot",
       primaryButtonLink: "/idopontfoglalas",
     }
