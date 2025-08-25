@@ -98,7 +98,7 @@ const ContactForm = () => {
           <Label htmlFor="subject">Tárgy</Label>
           <Select onValueChange={handleSelectChange}>
             <SelectTrigger>
-              <SelectValue placeholder="Select a subject" />
+              <SelectValue placeholder="Válasszon tárgyat" />
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="general">Általános megkeresés</SelectItem>
