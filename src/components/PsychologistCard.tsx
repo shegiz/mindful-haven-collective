@@ -54,20 +54,19 @@ const PsychologistCard: React.FC<PsychologistCardProps> = ({
                 </span>
               ))}
             </div>
-            
-            <div className="mt-auto">
-              <Link to={`/idopontfoglalas?psychologist=${id}`} className="w-full">
-                <Button className="w-full bg-therapy-blue hover:bg-therapy-blue/90">
-                  Foglaljon időpontot
-                </Button>
-              </Link>
-            </div>
           </div>
         </div>
         
         {/* Right side: Introduction */}
-        <div className="md:w-2/3 p-6 flex items-center">
+        <div className="md:w-2/3 p-6 flex items-top">
           <p className="text-sm text-therapy-gray leading-relaxed">{shortBio}</p>
+          <div className="mt-auto">
+            <Link to={`/idopontfoglalas?psychologist=${id}`} className="w-full">
+              <Button className="w-full bg-therapy-blue hover:bg-therapy-blue/90">
+                Foglaljon időpontot hozzám
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
     </Card>
