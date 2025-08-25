@@ -99,7 +99,7 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-lg text-center">
                 <div className="mb-4 mx-auto w-16 h-16 bg-therapy-blue-light rounded-full flex items-center justify-center">
                   <Award className="h-7 w-7 text-therapy-blue" />
@@ -109,18 +109,6 @@ const Index = () => {
                 </h3>
                 <p className="text-therapy-gray text-sm">
                   Csapatunk magasan képzett pszichológusokból áll, akik különböző területeken szerzett tapasztalatokkal rendelkeznek.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg text-center">
-                <div className="mb-4 mx-auto w-16 h-16 bg-therapy-green-light rounded-full flex items-center justify-center">
-                  <Users className="h-7 w-7 text-therapy-green" />
-                </div>
-                <h3 className="text-xl font-medium text-therapy-dark mb-2">
-                  Személyre szabott Terápia
-                </h3>
-                <p className="text-therapy-gray text-sm">
-                  Minden páciens számára egyedi kezelési tervet készítünk, amely figyelembe veszi az Ön egyéni igényeit és céljait.
                 </p>
               </div>
 
