@@ -58,10 +58,6 @@ const PsychologistCard: React.FC<PsychologistCardProps> = ({
         </div>
         
         {/* Right side: Introduction */}
-<<<<<<< HEAD
-        <div className="md:w-3/5 p-6 flex flex-col justify-between">
-          <p className="text-sm text-therapy-gray leading-relaxed mb-6">{shortBio}</p>
-=======
         <div className="md:w-2/3 p-6 flex flex-col justify-between">
           <div className="text-sm text-therapy-gray leading-relaxed mb-6">
             {shortBio.split('\n').map((line, index) => (
@@ -70,7 +66,6 @@ const PsychologistCard: React.FC<PsychologistCardProps> = ({
               </p>
             ))}
           </div>
->>>>>>> 72378932d8283ed28619abf25d4c96aa13e0fd4f
           <div>
             <Link to={`/idopontfoglalas?psychologist=${id}`}>
               <Button className="w-full bg-therapy-blue hover:bg-therapy-blue/90">
