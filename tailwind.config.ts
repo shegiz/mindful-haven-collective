@@ -101,7 +101,7 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out'
 			},
 			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
+				sans: ['Lato', 'sans-serif'],
 				serif: ['Merriweather', 'serif']
 			},
 		}
