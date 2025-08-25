@@ -59,7 +59,7 @@ const ContactForm = () => {
     <form onSubmit={handleSubmit} className="space-y-6">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="space-y-2">
-          <Label htmlFor="name">Name</Label>
+          <Label htmlFor="name">Név</Label>
           <Input 
             id="name" 
             name="name" 
@@ -85,7 +85,7 @@ const ContactForm = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="space-y-2">
-          <Label htmlFor="phone">Phone</Label>
+          <Label htmlFor="phone">Telefon</Label>
           <Input 
             id="phone" 
             name="phone" 
@@ -95,29 +95,29 @@ const ContactForm = () => {
           />
         </div>
         <div className="space-y-2">
-          <Label htmlFor="subject">Subject</Label>
+          <Label htmlFor="subject">Tárgy</Label>
           <Select onValueChange={handleSelectChange}>
             <SelectTrigger>
               <SelectValue placeholder="Select a subject" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="general">General Inquiry</SelectItem>
-              <SelectItem value="appointment">Appointment Question</SelectItem>
-              <SelectItem value="services">Services Information</SelectItem>
-              <SelectItem value="other">Other</SelectItem>
+              <SelectItem value="general">Általános megkeresés</SelectItem>
+              <SelectItem value="appointment">Időpontfoglalási kérdés</SelectItem>
+              <SelectItem value="services">Szolgáltatással kapcsolatos kérdés</SelectItem>
+              <SelectItem value="other">Egyéb</SelectItem>
             </SelectContent>
           </Select>
         </div>
       </div>
 
       <div className="space-y-2">
-        <Label htmlFor="message">Message</Label>
+        <Label htmlFor="message">Üzenet</Label>
         <Textarea 
           id="message" 
           name="message" 
           value={formData.message} 
           onChange={handleChange} 
-          placeholder="How can we help you?"
+          placeholder="Miben segíthetünk?"
           rows={6}
           required
         />
