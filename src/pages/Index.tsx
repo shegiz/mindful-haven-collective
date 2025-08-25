@@ -86,7 +86,7 @@ const Index = () => {
             <div className="text-center mt-12">
               <Link to="/szolgaltatasok">
                 <Button variant="outline" className="border-therapy-blue text-therapy-blue hover:bg-therapy-blue/10">
-                  Összes terápia megtekintése
+                  Terápiás szolgáltatásaink részletei
                 </Button>
               </Link>
             </div>
@@ -176,22 +176,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Call to Action */}
-        <section className="bg-therapy-blue py-16">
-          <div className="container-custom text-center text-white">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-6">
-              Készen áll a változásra?
-            </h2>
-            <p className="max-w-2xl mx-auto mb-8 opacity-90">
-              Foglaljon időpontot még ma, és kezdje el a lelki egészsége fejlesztését szakértőink segítségével. Legyen szó egyéni terápiáról, párkapcsolati tanácsadásról vagy csoportos foglalkozásokról, mi itt vagyunk, hogy támogassuk Önt.
-            </p>
-            <Link to="/idopontfoglalas">
-              <Button className="bg-white text-therapy-blue hover:bg-white/90 px-8 py-6">
-                Időpontfoglalás
-              </Button>
-            </Link>
-          </div>
-        </section>
       </main>
       <Footer />
     </>
