@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Smile, Users, Award, Clock } from 'lucide-react';
 import HeroCarousel from '@/components/HeroCarousel';
 import ServiceCard from '@/components/ServiceCard';
-import PsychologistCard from '@/components/PsychologistCard';
+import SimplePsychologistCard from '@/components/SimplePsychologistCard';
 import { Button } from '@/components/ui/button';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -11,30 +11,21 @@ import Footer from '@/components/Footer';
 const Index = () => {
   const featuredPsychologists = [
     {
-      id: "szentes-annamaria",
       name: "Dr. Szentes Annamária",
       title: "Alapító, szakmai vezető",
       specialties: ["Gyermek szakpszichológia", "Pár- és családterápia", "Meseterápia", "Gyermekpszichodráma"],
-      image: "/public/szentes.jpg",
-      shortBio: "Klinikai gyermek szakpszichológus, pár- és családterapeuta, meseterapeuta és gyermekpszichodráma-vezető."
     },
     {
-      id: "jozsa-balazs",
-      name: "Józsa Balázs",
-      title: "Family Therapist",
-      specialties: ["Család terápia", "Pár- és családterápia", "Gyermekpszichodráma"],
-      image: "/public/jozsa.jpg",
-      shortBio: "Dinamikus és rendszerszemléletben dolgozik, munkájának középpontjában a kapcsolatok és kapcsolódások mélyebb megértése áll. Gyermekekkel, felnőttekkel és családokkal foglalkozik egyéni és kapcsolati nehézségek esetén, a harmonikusabb élet felé vezető úton."
-    },
-    {
-      id: "jeney-gabriella",
       name: "Jeney Gabriella",
       title: "Gyermekpszichodráma vezető, pár-és családterapeuta jelölt",
       specialties: ["Gyermekpszichodráma", "Pár- és családterápia"],
-      image: "/public/jeney.jpg",
-      shortBio: "Családterápiában, felnőtt- és gyermekpszichodrámában, valamint érzelmi fókuszú párterápiában képzett pszichológus. Gyermekpszichodráma csoportokat vezet Józsa Balázzsal."
+    },
+    {
+      name: "Józsa Balázs",
+      title: "Family Therapist",
+      specialties: ["Család terápia", "Pár- és családterápia", "Gyermekpszichodráma"],
     }
-  ];
+  ].sort((a, b) => a.name.localeCompare(b.name));
 
   return (
     <>
@@ -156,15 +147,12 @@ const Index = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {featuredPsychologists.map((psychologist) => (
-                <PsychologistCard 
-                  key={psychologist.id}
-                  id={psychologist.id}
+              {featuredPsychologists.map((psychologist, index) => (
+                <SimplePsychologistCard 
+                  key={index}
                   name={psychologist.name}
                   title={psychologist.title}
                   specialties={psychologist.specialties}
-                  image={psychologist.image}
-                  shortBio={psychologist.shortBio}
                 />
               ))}
             </div>
