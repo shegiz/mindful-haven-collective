@@ -88,8 +88,8 @@ const Services = () => {
       <main>
         <HeroSection 
           title="Szolgáltatásaink"
-          subtitle="Átfogó pszichológiai szolgáltatások, melyek az egyének, családok és gyermekek egyedi igényeit is kielégíti."
-          imageSrc="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+          subtitle=""
+          imageSrc="/public/b61_img3.jpg"
           primaryButtonText="Foglaljon időpontot"
           primaryButtonLink="/idopontfoglalas"
           imagePosition="left"
@@ -146,49 +146,6 @@ const Services = () => {
           </div>
         </section>
 
-        {/* FAQs */}
-        <section className="section-padding bg-white">
-          <div className="container-custom max-w-4xl">
-            <div className="text-center mb-12">
-              <h2 className="text-therapy-dark mb-4">
-                Gyakran Ismételt Kérdések (GYIK)
-              </h2>
-              <p className="text-therapy-gray max-w-2xl mx-auto">
-                Itt találhatók a leggyakrabban feltett kérdések a szolgáltatásainkról és a terápiás folyamatról. Ha további kérdései vannak, ne habozzon kapcsolatba lépni velünk.
-              </p>
-            </div>
-
-            <Accordion type="single" collapsible className="w-full">
-              {faqs.map((faq, index) => (
-                <AccordionItem key={index} value={`item-${index}`}>
-                  <AccordionTrigger className="text-left text-therapy-dark">
-                    {faq.question}
-                  </AccordionTrigger>
-                  <AccordionContent className="text-therapy-gray">
-                    {faq.answer}
-                  </AccordionContent>
-                </AccordionItem>
-              ))}
-            </Accordion>
-          </div>
-        </section>
-
-        {/* Call to Action */}
-        <section className="bg-therapy-blue py-16">
-          <div className="container-custom text-center text-white">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-6">
-              Készen áll a változásra?
-            </h2>
-            <p className="max-w-2xl mx-auto mb-8 opacity-90">
-              Foglaljon időpontot még ma, és kezdje el a lelki egészsége fejlesztését szakértőink segítségével. Legyen szó egyéni terápiáról, párkapcsolati tanácsadásról vagy csoportos foglalkozásokról, mi itt vagyunk, hogy támogassuk Önt.
-            </p>
-            <Link to="/idopontfoglalas">
-              <Button className="bg-white text-therapy-blue hover:bg-white/90 px-8 py-6">
-                Időpontfoglalás
-              </Button>
-            </Link>
-          </div>
-        </section>
       </main>
       <Footer />
     </>
