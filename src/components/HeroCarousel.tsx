@@ -12,6 +12,7 @@ import Autoplay from "embla-carousel-autoplay";
 
 interface HeroSlideProps {
   title: string;
+  subtitle: string;
   imageSrc: string;
   primaryButtonText: string;
   primaryButtonLink: string;
@@ -20,6 +21,7 @@ interface HeroSlideProps {
 
 const HeroSlide: React.FC<HeroSlideProps> = ({
   title,
+  subtitle,
   imageSrc,
   primaryButtonText,
   primaryButtonLink,
@@ -67,12 +69,14 @@ const HeroCarousel: React.FC = () => {
   const slides = [
     {
       title: "Magas színvonalú és széleskörű pszichológiai szolgáltatásokkal várjuk a hozzánk fordulókat egy elfogadó és támogató környezetben Szentendre belvárosában.",
+      subtitle: "Látogasson el hozzánk, ahol a lelki egészség és a jólét az első.",
       imageSrc: "/public/szoba1.jpg",
       primaryButtonText: "Foglaljon időpontot",
       primaryButtonLink: "/idopontfoglalas",
     },
     {
       title: "Gyermek, pár-és családterápiák és csoportterápiák, magas szakmai színvonalú és támogató környezetben.",
+      subtitle: "Látogasson el hozzánk, ahol a lelki egészség és a jólét az első.",
       imageSrc: "/public/szoba1.jpg",
       primaryButtonText: "Foglaljon időpontot",
       primaryButtonLink: "/idopontfoglalas",
@@ -91,6 +95,7 @@ const HeroCarousel: React.FC = () => {
           <CarouselItem key={index}>
             <HeroSlide
               title={slide.title}
+              subtitle={slide.subtitle}
               imageSrc={slide.imageSrc}
               primaryButtonText={slide.primaryButtonText}
               primaryButtonLink={slide.primaryButtonLink}
