@@ -26,12 +26,11 @@ const Contact = () => {
                 <div className="bg-white p-8 rounded-lg shadow-sm">
                   <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Áraink</h2>
                   <p className="text-therapy-gray mb-6">
-                    Az árak a módszer és a szakemberek végzettségtől és szakmai tapasztalatától függően változnak. <br /><br />
-                    A szolgáltatások ára a következőképpen alakul: <br />
-                    <b>Egyéni terápia, tanácsadás</b>: 15000-20000HUF/alkalom (50 perc) <br />
-                    <b>Pár-és családterápia</b>: 50-55000/alkalom (90 perc) <br />
-                    <b>Gyermekpszichodráma csoport</b>: 7500/alkalom (60 perc) <br />
-                    <b>Irodalomterápiás csoport</b>: 6000-8000/alkalom (120 perc) 
+                    Az árak a módszer és a szakemberek végzettségtől és szakmai tapasztalatától függően változnak.<br /><br />
+                    <b>Egyéni terápia, tanácsadás</b>: 15.000-20.000.-Ft/alkalom (50 perc) <br />
+                    <b>Pár-és családterápia</b>: 50.000-55.000.-Ft/alkalom (90 perc) <br />
+                    <b>Gyermekpszichodráma csoport</b>: 7500.-Ft/alkalom (60 perc) <br />
+                    <b>Irodalomterápiás csoport</b>: 6000-8000.-Ft/alkalom (120 perc) (120 perc) 
                   </p>
                 </div>
 
@@ -114,9 +113,6 @@ const Contact = () => {
                       ></iframe>
                     </div>
                   </div>
-                  <p className="mt-4 text-therapy-gray">
-                    We're conveniently located in the heart of Wellness City, with easy access from major highways and public transportation routes.
-                  </p>
                 </div>
               </div>
             </div>

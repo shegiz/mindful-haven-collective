@@ -62,7 +62,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 mt-0.5" />
-                <p className="text-sm">Bükkö part 61<br />Szentendre</p>
+                <p className="text-sm">Bükkös part 61<br />Szentendre</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5" />
