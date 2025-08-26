@@ -89,7 +89,7 @@ const Services = () => {
         <HeroSection 
           title="Szolgáltatásaink"
           subtitle=""
-          imageSrc="/public/b61_img3.jpg"
+          imageSrc="/b61_img3.jpg"
           primaryButtonText="Foglaljon időpontot"
           primaryButtonLink="/idopontfoglalas"
           imagePosition="left"
