@@ -16,6 +16,9 @@ const Booking = () => {
         <section className="py-12 md:py-20 bg-therapy-beige">
           <div className="container-custom mx-auto">
             <div className="text-center mb-12">
+              <div className="w-full md:h-[600px] rounded-2xl overflow-hidden">
+                <img src="https://unsplash.com/photos/abstract-swirling-gold-and-white-paint-strokes-PmhyW2MZL6g" />
+              </div>
               <h1 className="text-4xl md:text-5xl font-bold text-therapy-dark mb-4">{t('bookingTitle')}</h1>
               <p className="text-lg text-therapy-gray max-w-2xl mx-auto">
                 {t('bookingSubtitle')}
