@@ -15,7 +15,7 @@ interface HeroSectionProps {
 const HeroSection: React.FC<HeroSectionProps> = ({
   title = "Gyermek, pár-és családterápiák és csoportterápiák, magas szakmai színvonalú és támogató környezetben.",
   subtitle = "Látogasson el hozzánk, ahol a lelki egészség és a jólét az első.",
-  imageSrc = "/public/szoba1.jpg",
+  imageSrc = "/szoba1.jpg",
   primaryButtonText = "Foglaljon időpontot",
   primaryButtonLink = "/idopontfoglalas",
   imagePosition = "right"
