@@ -95,31 +95,8 @@ const Services = () => {
           imagePosition="left"
         />
 
-        {/* Services Grid */}
-        <section className="section-padding bg-white">
-          <div className="container-custom">
-            <div className="text-center mb-12">
-              <h2 className="text-therapy-dark mb-4">Amit ajánlunk</h2>
-              <p className="text-therapy-gray max-w-2xl mx-auto">
-                Fedezze fel pszichológiai szolgáltatásainkat, amelyek segítenek a lelki egészség megőrzésében és fejlesztésében.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {services.map((service, index) => (
-                <ServiceCard
-                  key={index}
-                  title={service.title}
-                  description={service.description}
-                  icon={service.icon}
-                />
-              ))}
-            </div>
-          </div>
-        </section>
-
         {/* Service Details */}
-        <section className="section-padding bg-therapy-beige">
+        <section className="section-padding bg-white">
           <div className="container-custom max-w-4xl">
             <div className="text-center mb-12">
               <h2 className="text-therapy-dark mb-4">
@@ -132,7 +109,7 @@ const Services = () => {
 
             <div className="space-y-6">
               {services.map((service, index) => (
-                <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
+                <div key={index} className="bg-therapy-beige p-6 rounded-lg shadow-sm">
                   <div className="flex items-center space-x-4 mb-4">
                     <div className="w-12 h-12 bg-therapy-blue-light rounded-full flex items-center justify-center">
                       <div className="text-therapy-blue">{service.icon}</div>
