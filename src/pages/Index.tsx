@@ -11,11 +11,6 @@ import Footer from '@/components/Footer';
 const Index = () => {
   const featuredPsychologists = [
     {
-      name: "Dr. Szentes Annamária",
-      title: "Alapító, szakmai vezető, klinikai gyermek szakpszichológus, pár-és családterapeuta, meseterapeuta és gyermekpszichodráma vezető",
-      specialties: ["Egyéni gyermekterápia", "Pár- és családterápia", "Gyermekpszichodráma"],
-    },
-    {
       name: "Jeney Gabriella",
       title: "Gyermekpszichodráma vezető, pár-és családterapeuta jelölt",
       specialties: ["Gyermekpszichodráma", "Pár- és családterápia"],
@@ -26,9 +21,9 @@ const Index = () => {
       specialties: ["Egyéni gyermekterápia", "Egyéni felnőtt terápia", "Pár- és családterápia", "Autogén tréning"],
     },
     {
-      name: "Vásárhelyi Kriszta",
-      title: "Klinikai ifjúsági- és gyermek szakpszichológus",
-      specialties: ["Online pár-és családterápia"],
+      name: "Lencsés Anita",
+      title: "Pszichológus, irodalomterapeuta",
+      specialties: ["Egyéni gyermekterápia", "Egyéni felnőtt terápia", "Irodalomterápia"],
     },
     {
       name: "Pajer Lilla",
@@ -36,11 +31,16 @@ const Index = () => {
       specialties: ["Pszichológiai tanácsadás", "Szülőkonzultáció", "Autogén tréning"],
     },
     {
-      name: "Lencsés Anita",
-      title: "Pszichológus, irodalomterapeuta",
-      specialties: ["Egyéni gyermekterápia", "Egyéni felnőtt terápia", "Irodalomterápia"],
+      name: "Dr. Szentes Annamária",
+      title: "Alapító, szakmai vezető, klinikai gyermek szakpszichológus, pár-és családterapeuta, meseterapeuta és gyermekpszichodráma vezető",
+      specialties: ["Egyéni gyermekterápia", "Pár- és családterápia", "Gyermekpszichodráma"],
+    },    
+    {
+      name: "Vásárhelyi Kriszta",
+      title: "Klinikai ifjúsági- és gyermek szakpszichológus",
+      specialties: ["Online pár-és családterápia"],
     }
-  ].sort((a, b) => a.name.localeCompare(b.name));
+  ];
 
   return (
     <>
