@@ -98,8 +98,6 @@ const Services = () => {
         {/* Service Details */}
         <section className="section-padding bg-white">
           <div className="container-custom max-w-4xl">
-            <div className="text-center mb-12">
-
             <div className="space-y-6">
               {services.map((service, index) => (
                 <div key={index} className="bg-therapy-beige p-6 rounded-lg shadow-sm">
