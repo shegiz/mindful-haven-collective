@@ -27,19 +27,16 @@ const Footer = () => {
                 <Link to="/" className="hover:underline text-sm">Nyitólap</Link>
               </li>
               <li>
-                <Link to="/rolunk" className="hover:underline text-sm">Bemutatkozás</Link>
-              </li>
+                <Link to="/szolgaltatasok" className="hover:underline text-sm">Szolgáltatásaink</Link>
+              </li>              
               <li>
                 <Link to="/pszichologusok" className="hover:underline text-sm">Szakembereink</Link>
               </li>
               <li>
-                <Link to="/szolgaltatasok" className="hover:underline text-sm">Szolgáltatásaink</Link>
-              </li>
+                <Link to="/kapcsolat" className="hover:underline text-sm">Árak / Kapcsolat</Link>
+              </li>              
               <li>
                 <Link to="/idopontfoglalas" className="hover:underline text-sm">Foglaljon időpontot</Link>
-              </li>
-              <li>
-                <Link to="/kapcsolat" className="hover:underline text-sm">Árak / Kapcsolat</Link>
               </li>
             </ul>
           </div>

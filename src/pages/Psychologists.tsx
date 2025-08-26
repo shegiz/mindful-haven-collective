@@ -66,7 +66,7 @@ const Psychologists = () => {
           subtitle="Ismerje meg pszichológusainkat, akik elkötelezettek az ön és családja mentális egészségének támogatásában."
           imageSrc="/csapat.jpg"
           primaryButtonText="Foglaljon Időpontot"
-          primaryButtonLink="/booking"
+          primaryButtonLink="/idopontfoglalas"
         />
 
         {/* Team */}
