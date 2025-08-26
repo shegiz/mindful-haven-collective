@@ -97,18 +97,15 @@ const Contact = () => {
                 <div className="bg-white p-8 rounded-lg shadow-sm">
                   <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Térkép</h2>
                   <div className="aspect-video bg-gray-200 rounded-md overflow-hidden">
-                    {/* Embed a map here or use an image */}
-                    <div className="flex items-center justify-center">
-                      <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.527038017418!2d19.067551996237967!3d47.6694048253707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741d67aaad8a25f%3A0x40752374c8de13f6!2sSzentendre%2C%20B%C3%BCkk%C3%B6s%20part%2061%2C%202000%20Magyarorsz%C3%A1g!5e1!3m2!1shu!2sat!4v1756209139909!5m2!1shu!2sat" 
-                        width="100%" 
-                        height="100%" 
-                        style={{border: 0}} 
-                        allowFullScreen 
-                        loading="lazy" 
-                        referrerPolicy="no-referrer-when-downgrade"
-                      ></iframe>
-                    </div>
+                    <iframe 
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.527038017418!2d19.067551996237967!3d47.6694048253707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741d67aaad8a25f%3A0x40752374c8de13f6!2sSzentendre%2C%20B%C3%BCkk%C3%B6s%20part%2061%2C%202000%20Magyarorsz%C3%A1g!5e1!3m2!1shu!2sat!4v1756209139909!5m2!1shu!2sat" 
+                      width="100%" 
+                      height="100%" 
+                      style={{border: 0}} 
+                      allowFullScreen 
+                      loading="lazy" 
+                      referrerPolicy="no-referrer-when-downgrade"
+                    ></iframe>
                   </div>
                 </div>
               </div>
