@@ -12,7 +12,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Szentendrei Pszichológiai Központ</h3>
             <p className="text-sm opacity-85 mb-4">
-              Egyénre szabott, együttérző és professzionális pszichológiai támogatást nyújtunk gyerekeknek, felnőtteknek, pároknak és családoknak, hogy elősegítsük lelki egyensúlyuk elérését és fejlődésüket.
+              Magas színvonalú és széleskörű pszichológiai szolgáltatásokkal várjuk a hozzánk fordulókat egy elfogadó és támogató környezetben Szentendre belvárosában.
             </p>
             <div className="flex space-x-4">
               {/* Social Media Icons would go here */}
