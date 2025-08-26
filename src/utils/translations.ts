@@ -83,7 +83,9 @@ export const translations: Record<string, Translations> = {
     appointmentInfoText1: 'Initial consultations typically last 60 minutes. Follow-up sessions are usually 50 minutes.',
     appointmentInfoText2: 'We\'ll contact you within 24 business hours to confirm your appointment or suggest alternative times.',
     needHelp: 'Need Help?',
-    openHours: 'Monday - Friday: 9am - 7pm\nSaturday: 10am - 4pm\nSunday: Closed'
+    openHours: 'Monday - Friday: 9am - 7pm\nSaturday: 10am - 4pm\nSunday: Closed',
+    insurance: 'Insurance',
+    insuranceText: 'We accept most major insurance plans. Please contact us to verify coverage.'
   },
 
   hu: {
@@ -127,6 +129,8 @@ export const translations: Record<string, Translations> = {
     appointmentInfoText1: 'Munkanapokon 24 órán belül felvesszük Önnel a kapcsolatot.',
     appointmentInfoText2: 'Lemondás vagy módosítás esetén kérjük, legalább 24 órával előbb jelezzen',
     needHelp: 'Elérhetőség',
-    openHours: 'Hétfő - Péntek: 8:00 - 20:00\nSzombat: 8:00 - 12:00\nVasárnap: Zárva\nBejelentkezés szükséges!'
+    openHours: 'Hétfő - Péntek: 8:00 - 20:00\nSzombat: 8:00 - 12:00\nVasárnap: Zárva\nBejelentkezés szükséges!',
+    insurance: 'Biztosítás',
+    insuranceText: 'A legtöbb nagyobb biztosító támogatja szolgáltatásainkat. Kérjük, érdeklődjön nálunk a fedezettségről.'
   }
 };
