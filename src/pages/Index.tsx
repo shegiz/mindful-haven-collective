@@ -94,7 +94,7 @@ const Index = () => {
         </section>
 
         {/* Meet Our Team */}
-        <section className="section-padding bg-white">
+        <section className="section-padding bg-therapy-beige">
           <div className="container-custom">
             <div className="text-center mb-12">
               <h2 className="text-therapy-dark mb-4">Szakembereink</h2>
