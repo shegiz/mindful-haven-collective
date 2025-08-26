@@ -64,8 +64,8 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				therapy: {
-					'blue': '#5A9Bc9',
-					'blue-light': '#D8E7F1',
+					'blue': '#9cc0ae',
+					'blue-light': '#d8f1e7ff',
 					'green': '#80B192',
 					'green-light': '#E5F1E8',
 					'beige': '#F9F5F0',

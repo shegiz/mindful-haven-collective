@@ -13,10 +13,7 @@ const Contact = () => {
         <section className="py-12 md:py-20 bg-therapy-beige">
           <div className="container-custom mx-auto">
             <div className="text-center mb-12">
-              <h1 className="text-4xl md:text-5xl font-bold text-therapy-dark mb-4">Kapcsolat és Árak</h1>
-              <p className="text-lg text-therapy-gray max-w-2xl mx-auto">
-                Kérjük, vegye fel velünk a kapcsolatot, ha bármilyen kérdése van szolgáltatásainkkal vagy árainkkal kapcsolatban. Szakértő csapatunk örömmel segít Önnek eligibilis terápiás lehetőségekben és időpontfoglalásban.
-              </p>
+              <h1 className="text-4xl md:text-5xl font-bold text-therapy-dark mb-4">Árak és Kapcsolat</h1>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -24,7 +21,7 @@ const Contact = () => {
               <div className="space-y-8">
                 {/* Pricing Section */}
                 <div className="bg-white p-8 rounded-lg shadow-sm">
-                  <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Áraink</h2>
+                  <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Árak</h2>
                   <p className="text-therapy-gray mb-6">
                     Az árak a módszer és a szakemberek végzettségtől és szakmai tapasztalatától függően változnak.<br /><br />
                     <b>Egyéni terápia, tanácsadás</b>: 15-20.000 Ft/alkalom (50 perc) <br />
@@ -36,7 +33,7 @@ const Contact = () => {
 
                 {/* Contact Form */}
                 <div className="bg-white p-8 rounded-lg shadow-sm">
-                  <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Üzenjen nekünk</h2>
+                  <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Üzenet</h2>
                   <ContactForm />
                 </div>
               </div>

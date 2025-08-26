@@ -72,15 +72,6 @@ const Psychologists = () => {
         {/* Team */}
         <section className="section-padding bg-white">
           <div className="container-custom">
-            <div className="text-center mb-12">
-              <h2 className="text-therapy-dark mb-4">
-                Szakértői csapatunk
-              </h2>
-              <p className="text-therapy-gray max-w-2xl mx-auto">
-                Pszichológiai rendelőnk magasan képzett szakemberekből áll, ismerkedjen meg velük.
-              </p>
-            </div>
-
             <div className="grid grid-cols-1 gap-8">
               {psychologists.map((psychologist) => (
                 <PsychologistCard 
@@ -101,11 +92,11 @@ const Psychologists = () => {
         <section className="section-padding bg-therapy-beige">
           <div className="container-custom max-w-4xl">
             <div className="text-center mb-12">
-              <h2 className="text-therapy-dark mb-4">
+              <h3 className="text-therapy-dark mb-4">
                 Szakmai alapelvek és Etikai Irányelvek
-              </h2>
+              </h3>
               <p className="text-therapy-gray max-w-2xl mx-auto">
-                Minden pszichológusunk szigorúan betartja a Magyar Pszichológiai Társaság etikai irányelveit, amelyek biztosítják, hogy a kliensek biztonságban és tiszteletben érezzék magukat a terápiás folyamat során. A pszichológusok folyamatosan részt vesznek szakmai továbbképzéseken és szupervíziókon, hogy fenntartsák tudásukat és készségeiket.
+                Minden pszichológusunk betartja a Magyar Pszichológiai Társaság etikai irányelveit, amelyek biztosítják, hogy a kliensek biztonságban és tiszteletben érezzék magukat a terápiás folyamat során. A pszichológusok folyamatosan részt vesznek szakmai továbbképzéseken és szupervíziókon, hogy fenntartsák tudásukat és készségeiket.
               </p>
             </div>
           </div>

@@ -86,61 +86,9 @@ const Index = () => {
             <div className="text-center mt-12">
               <Link to="/szolgaltatasok">
                 <Button variant="outline" className="border-therapy-blue text-therapy-blue hover:bg-therapy-blue/10">
-                  Terápiás szolgáltatásaink részletei
+                  Szolgáltatásainkról bővebben
                 </Button>
               </Link>
-            </div>
-          </div>
-        </section>
-
-        {/* Why Choose Us */}
-        <section className="section-padding bg-therapy-beige">
-          <div className="container-custom">
-            <div className="text-center mb-12">
-              <h2 className="text-therapy-dark mb-4">
-                Miért válasszon minket?
-              </h2>
-              <p className="text-therapy-gray max-w-2xl mx-auto"> 
-                Pszichológiai rendelőnk elkötelezett a magas színvonalú, személyre szabott pszichológiai ellátás mellett. Kollégáink különböző területeken szerzett tapasztalatokkal rendelkeznek, hogy a legjobb támogatást nyújthassák Önnek és családjának.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white p-6 rounded-lg text-center">
-                <div className="mb-4 mx-auto w-16 h-16 bg-therapy-blue-light rounded-full flex items-center justify-center">
-                  <Award className="h-7 w-7 text-therapy-blue" />
-                </div>
-                <h3 className="text-xl font-medium text-therapy-dark mb-2">
-                  Tapasztalt Szakemberek
-                </h3>
-                <p className="text-therapy-gray text-sm">
-                  Csapatunk magasan képzett pszichológusokból áll, akik különböző területeken szerzett tapasztalatokkal rendelkeznek.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg text-center">
-                <div className="mb-4 mx-auto w-16 h-16 bg-therapy-blue-light rounded-full flex items-center justify-center">
-                  <Smile className="h-7 w-7 text-therapy-blue" />
-                </div>
-                <h3 className="text-xl font-medium text-therapy-dark mb-2">
-                  Biztonságos és Támogató Környezet
-                </h3>
-                <p className="text-therapy-gray text-sm">
-                  Rendelőnk barátságos és elfogadó légkört biztosít, ahol Ön szabadon kifejezheti érzéseit és gondolatait.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg text-center">
-                <div className="mb-4 mx-auto w-16 h-16 bg-therapy-green-light rounded-full flex items-center justify-center">
-                  <Clock className="h-7 w-7 text-therapy-green" />
-                </div>
-                <h3 className="text-xl font-medium text-therapy-dark mb-2">
-                  Rugalmas Időpontok
-                </h3>
-                <p className="text-therapy-gray text-sm">
-                  Rugalmas időpontokat kínálunk, hogy a terápia illeszkedjen az Ön életviteléhez. Online és személyes konzultációkat is biztosítunk.
-                </p>
-              </div>
             </div>
           </div>
         </section>
@@ -169,7 +117,7 @@ const Index = () => {
             <div className="text-center mt-12">
               <Link to="/pszichologusok">
                 <Button variant="outline" className="border-therapy-blue text-therapy-blue hover:bg-therapy-blue/10">
-                  További szakembereink
+                  Szakembereinkről bővebben
                 </Button>
               </Link>
             </div>
