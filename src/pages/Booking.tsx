@@ -34,7 +34,6 @@ const Booking = () => {
                   <div className="space-y-4 text-therapy-gray">
                     <p>{t('appointmentInfoText1')}</p>
                     <p>{t('appointmentInfoText2')}</p>
-                    <p>{t('appointmentInfoText3')}</p>
                   </div>
                 </div>
 
@@ -57,14 +56,6 @@ const Booking = () => {
                       </p>
                     </div>
                   </div>
-                </div>
-
-                {/* Insurance Box */}
-                <div className="bg-white p-6 rounded-lg shadow-sm">
-                  <h3 className="text-xl font-medium text-therapy-dark mb-4">{t('insurance')}</h3>
-                  <p className="text-therapy-gray">
-                    {t('insuranceText')}
-                  </p>
                 </div>
               </div>
             </div>

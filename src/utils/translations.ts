@@ -32,7 +32,6 @@ type TranslationKey =
   | 'appointmentInfo'
   | 'appointmentInfoText1'
   | 'appointmentInfoText2'
-  | 'appointmentInfoText3'
   | 'needHelp'
   | 'openHours'
   | 'insurance'
@@ -83,11 +82,8 @@ export const translations: Record<string, Translations> = {
     appointmentInfo: 'Appointment Information',
     appointmentInfoText1: 'Initial consultations typically last 60 minutes. Follow-up sessions are usually 50 minutes.',
     appointmentInfoText2: 'We\'ll contact you within 24 business hours to confirm your appointment or suggest alternative times.',
-    appointmentInfoText3: 'If you need to cancel or reschedule, please provide at least 24 hours\' notice.',
     needHelp: 'Need Help?',
-    openHours: 'Monday - Friday: 9am - 7pm\nSaturday: 10am - 4pm\nSunday: Closed',
-    insurance: 'Insurance',
-    insuranceText: 'We accept most major insurance plans. Please have your insurance information ready when we contact you to confirm your appointment, and we\'ll verify your benefits.'
+    openHours: 'Monday - Friday: 9am - 7pm\nSaturday: 10am - 4pm\nSunday: Closed'
   },
 
   hu: {
@@ -127,13 +123,10 @@ export const translations: Record<string, Translations> = {
     submitting: 'Küldés folyamatban...',
     
     // Sidebar sections
-    appointmentInfo: 'Információk a foglalásról',
-    appointmentInfoText1: 'Az első konzultáció általában 60 percig tart. A követő alkalmak 50 percesek.',
-    appointmentInfoText2: 'Munkanap 24 órán belül felvesszük Önnel a kapcsolatot a foglalás megerősítéséhez vagy alternatív időpontok ajánlásához.',
-    appointmentInfoText3: 'Lemondás vagy átfoglalás esetén kérjük, legalább 24 órával előbb jelezzen.',
-    needHelp: 'Segítségre van szüksége?',
-    openHours: 'Hétfő - Péntek: 9:00 - 19:00\nSzombat: 10:00 - 16:00\nVasárnap: Zárva',
-    insurance: 'Egészségbiztosítás',
-    insuranceText: 'A legtöbb nagyobb biztosítót elfogadjuk. Kérjük, hogy a foglalás megerősítésekor készítse elő biztosítási adatait, hogy ellenőrizhessük a fedezetet.'
+    appointmentInfo: 'Információk',
+    appointmentInfoText1: 'Munkanapokon 24 órán belül felvesszük Önnel a kapcsolatot.',
+    appointmentInfoText2: 'Lemondás vagy módosítás esetén kérjük, legalább 24 órával előbb jelezzen',
+    needHelp: 'Elérhetőség',
+    openHours: 'Hétfő - Péntek: 8:00 - 20:00\nSzombat: 8:00 - 12:00\nVasárnap: Zárva\nBejelentkezés szükséges!'
   }
 };
