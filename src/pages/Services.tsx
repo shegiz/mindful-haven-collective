@@ -99,13 +99,6 @@ const Services = () => {
         <section className="section-padding bg-white">
           <div className="container-custom max-w-4xl">
             <div className="text-center mb-12">
-              <h2 className="text-therapy-dark mb-4">
-                Részletes Szolgáltatások
-              </h2>
-              <p className="text-therapy-gray max-w-2xl mx-auto">
-                Minden szolgáltatásunkat úgy alakítottuk ki, hogy támogassa az egyéni fejlődést és a lelki jólétet. Fedezze fel részletesen, mit kínálunk.
-              </p>
-            </div>
 
             <div className="space-y-6">
               {services.map((service, index) => (
