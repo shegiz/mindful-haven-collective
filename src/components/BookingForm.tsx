@@ -26,18 +26,18 @@ import {
 const psychologists = [
   { id: "jeney-gabriella", name: "Jeney Gabriella" },
   { id: "jozsa-balazs", name: "Józsa Balázs" },
-  { id: "szentes-annamaria", name: "Dr. Szentes Annamária" },
-  { id: "vasarhelyi-kriszta", name: "Vásárhelyi Kriszta" },
+  { id: "lencses-anita", name: "Lencsés Anita" },
   { id: "pajer-lilla", name: "Pajer Lilla" },
-  { id: "lencses-anita", name: "Lencsés Anita" }
+  { id: "szentes-annamaria", name: "Dr. Szentes Annamária" },
+  { id: "vasarhelyi-kriszta", name: "Vásárhelyi Kriszta" }
 ];
 
 const services = [
   { id: "egyeni", name: "Egyéni gyermekterápia" },
-  { id: "tanacsadas", name: "Pszichológiai tanácsadás" },
-  { id: "par", name: "Pár- és családterápia" },
+  { id: "csoport", name: "Csoportterápiák" },
   { id: "onlina", name: "Online párterápia" },
-  { id: "csoport", name: "Csoportterápiák" }
+  { id: "par", name: "Pár- és családterápia" },
+  { id: "tanacsadas", name: "Pszichológiai tanácsadás" }
 ];
 
 const BookingForm: React.FC = () => {
