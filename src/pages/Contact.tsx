@@ -26,6 +26,8 @@ const Contact = () => {
                     Az árak a módszer és a szakemberek végzettségtől és szakmai tapasztalatától függően változnak.<br /><br />
                     <b>Egyéni terápia, tanácsadás</b>: 15-20.000 Ft/alkalom (50 perc) <br />
                     <b>Pár-és családterápia</b>: 50-55.000 Ft/alkalom (90 perc) <br />
+                    <b>Online párterápia</b>: 40.000 Ft/alkalom (90 perc) <br />
+                    <b>Online párterápia angolul</b>: 50.000 Ft/alkalom (90 perc) <br />
                     <b>Gyermekpszichodráma csoport</b>: 7.500 Ft/alkalom (60 perc) <br />
                     <b>Irodalomterápiás csoport</b>: 6-8.000 Ft/alkalom (120 perc) 
                   </p>

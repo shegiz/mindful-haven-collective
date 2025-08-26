@@ -33,9 +33,9 @@ const Psychologists = () => {
     },
     {
       id: "pajer-lilla",
-      name: "Pajer Lilla",
+      name: "Pájer Lilla",
       title: "Pszichológus",
-      specialties: ["pszichológiai tanácsadás", "szülőkonzultáció", "szülőkonzultáció", "autogén tréning"],
+      specialties: ["Pszichológiai tanácsadás", "Szülőkonzultáció", "Autogén tréning"],
       image: "/pajer.jpg",
       shortBio: "Pájer Lilla vagyok, okleveles pszichológus, képzésben lévő tanácsadó szakpszichológus, autogén tréning relaxációs gyakorlatvezető. Egy szentendrei óvodában dolgozom óvodapszichológusként. Amiben segíteni tudok: nevelési tanácsadás, szorongás kezelése, stressz kezelés gyerekeknek és felnőtteknek. Gyerekekkel alapvetően művészetterápiás és játékterápiás eszközökkel dolgozom. Felnőtteknek tartok autogén tréninget is."
     },

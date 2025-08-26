@@ -36,13 +36,13 @@ const Services = () => {
       details: "A pszichológiai tanácsadás a lelki támogatás egyik formája, amely elsősorban olyan személyeket segít, akik valamilyen életvezetési nehézséggel, krízissel vagy elakadással küzdenek. A cél, hogy a kliens saját belső erőforrásait mozgósítva új nézőpontokat találjon problémái megértéséhez és megoldásához. A pszichológus fókuszáltan az aktuális kérdésekkel dolgozik, miközben biztonságos, elfogadó légkört biztosít az együttműködéshez. A tanácsadás során lehetőség nyílik az ismétlődő mintázatok felismerésére, a változás irányainak meghatározására és a kiegyensúlyozottabb életvitel kialakítására."
     },
     {
-      title: "Pár- és családterápia",
+      title: "Pár- és családterápia, kettős vezetéssel",
       description: "A pár-és családterápia olyan terápiás megközelítés, amely az egyén nehézségeit a kapcsolati rendszerében vizsgálja.",
       icon: <Book className="h-6 w-6" />,
       details: "A pár-és családterápia olyan terápiás megközelítés, amely az egyén nehézségeit a kapcsolati rendszerében vizsgálja. A terápiás fókuszi a családi kapcsolatokon, a társas viszonyokon, valamint a kulturális és környezeti hatások összességén van.  A terápiás munka célja, hogy támogassuk a család harmonikus működését: erősítsük a kölcsönös megértést, az érzelmi támogatást, és fejlesszük a megküzdési és problémamegoldó készségeket. A család fogalmát tágan értelmezzük – számunkra minden olyan emberi közösség családnak számít, amelynek tagjai törődnek egymással, és magukat családként határozzák meg. A terápiás folyamatot mindig az adott család élethelyzetéhez, szükségleteihez és értékeihez igazítjuk."
     },
     {
-      title: "Online párterápia",
+      title: "Online párterápia, kettős vezetéssel",
       description: "A rendszerszemléletű párterápia egy olyan terápiás megközelítés, amely a párkapcsolatot nem egyének összességének, hanem rendszerként kezeli.",
       icon: <Sparkles className="h-6 w-6" />,
       details: "A rendszerszemléletű párterápia egy olyan terápiás megközelítés, amely a párkapcsolatot nem egyének összességének, hanem rendszerként kezeli, így a terápiás munka középpontjában maga a kapcsolat áll, a cél pedig a működési mintázatok megértése és, ha szükséges új mintázatok, stratégiák kialakítása. A párterápia biztonságos keretet ad ahhoz, hogy a felek nyíltan, őszintén beszélhessenek a nehézségeikről. A folyamat során közösen dolgozunk a rögzült kommunikációs és viselkedési minták feltárásán, megértjük ezek eredetét és hatását, majd segítünk olyan új kapcsolati működésmódokat kialakítani, amelyek támogatják a kapcsolat fejlődését és stabilitását."
