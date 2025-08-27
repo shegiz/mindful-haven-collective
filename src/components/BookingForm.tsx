@@ -122,6 +122,15 @@ const BookingForm: React.FC = () => {
         </CardDescription>
       </CardHeader>
       <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          name="website"
+          value={formData.website || ''}
+          onChange={handleChange}
+          style={{ display: "none" }} // hidden from humans
+          tabIndex={-1}
+          autoComplete="off"
+        />
         <CardContent className="space-y-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="space-y-2">
