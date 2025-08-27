@@ -67,18 +67,31 @@ const BookingForm: React.FC = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const API_URL = '/api/booking_submit.php'; // or 'https://api.example.com/booking_submit.php'
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate API call
-    setTimeout(() => {
-      console.log('Form submitted:', formData);
+
+    try {
+      const res = await fetch(API_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+        // credentials: 'include', // only if you need cookies
+      });
+
+      const data = await res.json();
+
+      if (!res.ok || !data.success) {
+        throw new Error(data.message || 'Request failed');
+      }
+
       toast({
         title: "Appointment Request Received",
         description: "We'll contact you shortly to confirm your appointment.",
       });
-      setIsSubmitting(false);
+
       setFormData({
         name: '',
         email: '',
@@ -89,7 +102,15 @@ const BookingForm: React.FC = () => {
         preferredTime: '',
         message: '',
       });
-    }, 1500);
+    } catch (err: any) {
+      toast({
+        title: "Something went wrong",
+        description: err.message || "Please try again later.",
+        // variant: "destructive"
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
