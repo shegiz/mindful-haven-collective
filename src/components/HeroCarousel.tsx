@@ -68,11 +68,11 @@ const HeroCarousel: React.FC = () => {
 
   const slides = [
     {
-      title: "Lencsés Anita kolléganőnk az idei Szentendre Éjjel-Nappal Nyitva Fesztiválon kreatív önismereti foglalkozás irodalomterápiás foglalkozást tart “SZÖVEGEK SZÁRNYÁN” címmel.",
-      subtitle: "Augusztus 30. szombat 10:00-12:00",
-      imageSrc: "/szen.jpg",
-      primaryButtonText: "A program részletei",
-      primaryButtonLink: "https://szentendreejjelnappalnyitva.hu/event/szovegek-szarnyan-kreativ-onismereti-foglalkozas-irodalomterapiaval/",
+      title: "Lapozzunk! Február 1-jén kreatív évösszegző és évindító önismereti délutánt tart Lencsés Anita kolléganőnk.",
+      subtitle: "A workshopon egy elfogadó közösségben, kortárs versek, írásgyakorlatok, asszociációs kártyák és vizuális alkotás segítségével búcsúzunk el 2025-től, és köszöntjük a 2026-os évet.",
+      imageSrc: "/lapozzunk.png",
+      primaryButtonText: "Jelentkezem a foglalkozásra",
+      primaryButtonLink: "https://forms.gle/a7CRd35thxRXykQh7",
     },
     {
       title: "Magas színvonalú és széleskörű pszichológiai szolgáltatásokkal várjuk a hozzánk fordulókat egy elfogadó és támogató környezetben Szentendre belvárosában.",
