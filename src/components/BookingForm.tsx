@@ -198,7 +198,6 @@ const BookingForm: React.FC = () => {
                 id="preferredDate" 
                 name="preferredDate" 
                 type="date"
-                min={today}
                 value={formData.preferredDate} 
                 onChange={handleChange} 
                 required 
