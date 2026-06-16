@@ -234,7 +234,6 @@ const BookingForm: React.FC = () => {
           </div>
         </CardContent>
         <CardFooter>
-          <Input type="hidden" name="fraud" value="mmm" />
           <Button 
             type="submit" 
             className="w-full bg-therapy-blue hover:bg-therapy-blue/90"
