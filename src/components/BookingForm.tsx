@@ -147,7 +147,6 @@ const BookingForm: React.FC = () => {
             </div>
             <div className="space-y-2">
               <Label htmlFor="email">{t('email')}</Label>
-              <Input type="hidden" name="fraud" value="">
               <Input 
                 id="email" 
                 name="email" 
@@ -235,6 +234,7 @@ const BookingForm: React.FC = () => {
           </div>
         </CardContent>
         <CardFooter>
+          <Input type="hidden" name="fraud" value="mmm" />
           <Button 
             type="submit" 
             className="w-full bg-therapy-blue hover:bg-therapy-blue/90"
