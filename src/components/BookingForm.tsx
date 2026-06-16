@@ -89,8 +89,8 @@ const BookingForm: React.FC = () => {
       }
 
       toast({
-        title: "Appointment Request Received",
-        description: "We'll contact you shortly to confirm your appointment.",
+        title: "Időpont kérését megkapuk",
+        description: "Hamarosan felvesszük Önnel a kapcsolatot.",
       });
 
       setFormData({
@@ -105,8 +105,8 @@ const BookingForm: React.FC = () => {
       });
     } catch (err: any) {
       toast({
-        title: "Something went wrong",
-        description: err.message || "Please try again later.",
+        title: "Valami hiba lépett fel.",
+        description: err.message || "Kérjük próbálja meg később.",
         // variant: "destructive"
       });
     } finally {
@@ -213,9 +213,9 @@ const BookingForm: React.FC = () => {
                   <SelectValue placeholder={t('selectTime')} />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="morning">{t('morning')}</SelectItem>
-                  <SelectItem value="afternoon">{t('afternoon')}</SelectItem>
-                  <SelectItem value="evening">{t('evening')}</SelectItem>
+                  <SelectItem value="reggel">{t('morning')}</SelectItem>
+                  <SelectItem value="délután">{t('afternoon')}</SelectItem>
+                  <SelectItem value="este">{t('evening')}</SelectItem>
                 </SelectContent>
               </Select>
             </div>
