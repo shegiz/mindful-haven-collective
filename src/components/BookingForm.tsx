@@ -192,24 +192,6 @@ const BookingForm: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="space-y-2">
-              <Label htmlFor="service">{t('service')}</Label>
-              <Select 
-                value={formData.service} 
-                onValueChange={(value) => handleSelectChange('service', value)}
-              >
-                <SelectTrigger>
-                  <SelectValue placeholder={t('selectService')} />
-                </SelectTrigger>
-                <SelectContent>
-                  {services.map((service) => (
-                    <SelectItem key={service.id} value={service.id}>
-                      {service.name}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </div>
-            <div className="space-y-2">
               <Label htmlFor="preferredDate">{t('preferredDate')}</Label>
               <Input 
                 id="preferredDate" 
@@ -220,9 +202,6 @@ const BookingForm: React.FC = () => {
                 required 
               />
             </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
             <div className="space-y-2">
               <Label htmlFor="preferredTime">{t('preferredTime')}</Label>
               <Select 
