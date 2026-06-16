@@ -8,6 +8,14 @@ import PsychologistCard from '@/components/PsychologistCard';
 const Psychologists = () => {
   const psychologists = [
     {
+      id: "javorszky_eszter",
+      name: "Jávorszky Eszter",
+      title: "Gyermekpszichodráma vezető, pár-és családterapeuta jelölt",
+      specialties: ["Gyermekpszichodráma", "Pár- és családterápia"],
+      image: "/javorszky.jpg",
+      shortBio: "Jávorszky Eszter vagyok, okleveles pszichológus, pszichodráma vezető, monodráma tanácsadó. Az egyetem elvégzése után a hajléktalan ellátásban dolgoztam egyéni és csoportos felállásban jellemzően függőséggel és egyéb mentális problémával küzdő emberekkel, illetve az őket segítő szociális munkásokkal. Ezt követően több jászsági családsegítőben támogattam hátrányos helyzetű családokat. Munkám során mindig izgalmas kihívás volt számomra, hogy közös hangot találjak a legkülönfélébb emberekkel és elnyerjem bizalmunkat ahhoz, hogy kísérhessem őket önismereti útjukon. Hiszek a kapcsolat megtartó erejében. Hiszem, hogy az élmények láthatóvá válása tehermentesít és segít megérteni helyzetünket. Hiszem, hogy az elkötelezett segítői kapcsolatban mindenki képes rátalálni külső és belső erőforrásaira, amit céljai szolgálatába állíthat. 2013 óta foglalkozom egyéni tanácsadással."
+    },
+    {
       id: "jeney-gabriella",
       name: "Jeney Gabriella",
       title: "Gyermekpszichodráma vezető, pár-és családterapeuta jelölt",
