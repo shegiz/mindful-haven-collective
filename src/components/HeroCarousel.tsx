@@ -69,7 +69,7 @@ const HeroCarousel: React.FC = () => {
   const slides = [
     {
       title: "Támogatott Terápia",
-      subtitle: "A <b>Mosoly Alapítvány</b> segítségével lehetőség van <b>Támogatott terápiát</b> is igénybe venni <b>Jeney Gabriellánál</b>, hogy azok a gyermekek és családok se szoruljanak ki az ellátásból, akiknek sürgős pszichés segítségre van szükségük, de elesnek ettől az állami rendszerben tapasztalható hosszú várólisták miatt, vagy mert a privát szolgáltatást nem tudnák megfizetni.",
+      subtitle: "A Mosoly Alapítvány segítségével lehetőség van Támogatott terápiát is igénybe venni Jeney Gabriellánál, hogy azok a gyermekek és családok se szoruljanak ki az ellátásból, akiknek sürgős pszichés segítségre van szükségük, de elesnek ettől az állami rendszerben tapasztalható hosszú várólisták miatt, vagy mert a privát szolgáltatást nem tudnák megfizetni.",
       imageSrc: "/Mosoly_logo.png",
       primaryButtonText: "Foglaljon időpontot",
       primaryButtonLink: "/idopontfoglalas?psychologist=jeney-gabriella",
