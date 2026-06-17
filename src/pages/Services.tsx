@@ -71,7 +71,7 @@ const Services = () => {
       icon: <Smile className="h-6 w-6" />,
       color: '#efcc45',
       icolor: '#ffffff',
-      details: "Központunkban önismereti, meseterápiás, gyermekpszichodráma, irodalomterápiás és tematikus csoportokat tartunk."
+      details: "A Mosoly Alapítvány Széles Mosoly támogatási programjának a célja, hogy rugalmas keretek között gyors és rendszeres támogatást nyújtson azon gyermekek és családjaik részére, akiknek sürgős pszichés segítségre van szükségük, de elesnek ettől az állami rendszerben tapasztalható hosszú várólisták miatt, vagy mert a privát szolgáltatást nem tudnák megfizetni. A program lépcsős támogatási lehetőségeket kínál egyéni és családterápiás folyamatok finanszírozására. A programban a Mosoly Alapítvány célcsoportjainak megfelelő (súlyos, krónikus beteg, pszichés problémával küzdő) gyermekek és családjaik vehetnek részt. A gyermekeket és családokat a Mosollyal kapcsolatban álló szakemberek ajánlhatják a programba, akik fel tudják mérni az ellátás szükségességét. A B61 Szentendrei Pszichológiai Központban Jeney Gabriellánál lehet erre a programra jelentkezni"
     }
   ];
 
