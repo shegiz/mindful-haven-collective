@@ -33,18 +33,39 @@ const ContactForm = () => {
     setFormData((prev) => ({ ...prev, subject: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const API_URL = '/api/contact_submit.php';
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate API call
-    setTimeout(() => {
-      console.log('Contact form submitted:', formData);
-      toast({
-        title: "Message Sent",
-        description: "Thank you for your message. We'll get back to you shortly.",
+
+    try {
+      const res = await fetch(API_URL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+        body: JSON.stringify(formData),
       });
-      setIsSubmitting(false);
+
+      const contentType = res.headers.get('content-type') || '';
+      const raw = await res.text();
+      let data: any = {};
+
+      if (contentType.includes('application/json')) {
+        data = raw ? JSON.parse(raw) : {};
+      }
+
+      if (!res.ok || !data.success) {
+        throw new Error(data.message || (res.status === 404 ? 'Service not found' : 'Request failed'));
+      }
+
+      toast({
+        title: "Üzenet elküldve",
+        description: "Köszönjük megkeresését, hamarosan válaszolunk.",
+      });
+
       setFormData({
         name: '',
         email: '',
@@ -52,7 +73,14 @@ const ContactForm = () => {
         subject: '',
         message: '',
       });
-    }, 1500);
+    } catch (err: any) {
+      toast({
+        title: "Hiba történt",
+        description: err.message || "Kérjük próbálja meg később.",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -96,7 +124,7 @@ const ContactForm = () => {
         </div>
         <div className="space-y-2">
           <Label htmlFor="subject">Tárgy</Label>
-          <Select onValueChange={handleSelectChange}>
+          <Select value={formData.subject} onValueChange={handleSelectChange}>
             <SelectTrigger>
               <SelectValue placeholder="Válasszon tárgyat" />
             </SelectTrigger>

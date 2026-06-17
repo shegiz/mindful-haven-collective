@@ -19,6 +19,7 @@ interface Service {
   description: string;
   icon: React.ReactNode;
   details: string;
+  color: string;
 }
 
 const Services = () => {
