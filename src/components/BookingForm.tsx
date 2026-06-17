@@ -58,6 +58,7 @@ const BookingForm: React.FC = () => {
     preferredDate: '',
     preferredTime: '',
     message: '',
+    website: '',
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
