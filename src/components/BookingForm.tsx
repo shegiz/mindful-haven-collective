@@ -104,6 +104,7 @@ const BookingForm: React.FC = () => {
         preferredDate: '',
         preferredTime: '',
         message: '',
+        website: '',
       });
     } catch (err: any) {
       toast({
