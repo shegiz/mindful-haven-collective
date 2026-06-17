@@ -20,6 +20,7 @@ interface Service {
   icon: React.ReactNode;
   details: string;
   color: string;
+  icolor: string;
 }
 
 const Services = () => {
@@ -29,6 +30,7 @@ const Services = () => {
       description: "Az egyéni gyermekterápia biztonságos és támogató keretet nyújt a gyerekek számára ahhoz, hogy játékos, életkorukhoz illeszkedő módon dolgozhassák fel.",
       icon: <Smile className="h-6 w-6" />,
       color: '#d8f1e7',
+      icolor: '#81a995',
       details: "Az egyéni gyermekterápia biztonságos és támogató keretet nyújt a gyerekek számára ahhoz, hogy játékos, életkorukhoz illeszkedő módon dolgozhassák fel érzelmi és viselkedésbeli nehézségeiket, szorongásaikat. A gyerekek sokszor nemcsak szavakkal, hanem játékkal, rajzzal, történetekkel fejezik ki belső világukat. A gyermekterápia során ezek az eszközök segítenek megérteni a reakcióik és a viselkedésük mögött húzódó érzelmeket, esetleges nehézségeket. A gyermekterápiák során a leggyakrabban szorongásos és pszichoszomatikus panaszokkal, magatartás problémákkal, illetve élethelyzeti krízisekkel (pl. válás, testvér születése) foglalkozunk. A szülők aktív bevonása és a rendszeres konzultációk fontos részét jelentik a terápiás folyamatnak. Célunk, hogy a gyermek új megküzdési módokat találjon, fejlődjön az önbizalma és jobban érezze magát a bőrében."
     },
     {
@@ -36,6 +38,7 @@ const Services = () => {
       description: "A pszichológiai tanácsadás a lelki támogatás egyik formája, amely elsősorban olyan személyeket segít, akik valamilyen életvezetési nehézséggel, krízissel vagy elakadással küzdenek.",
       icon: <Users className="h-6 w-6" />,
       color: '#d8f1e7',
+      icolor: '#81a995',
       details: "A pszichológiai tanácsadás a lelki támogatás egyik formája, amely elsősorban olyan személyeket segít, akik valamilyen életvezetési nehézséggel, krízissel vagy elakadással küzdenek. A cél, hogy a kliens saját belső erőforrásait mozgósítva új nézőpontokat találjon problémái megértéséhez és megoldásához. A pszichológus fókuszáltan az aktuális kérdésekkel dolgozik, miközben biztonságos, elfogadó légkört biztosít az együttműködéshez. A tanácsadás során lehetőség nyílik az ismétlődő mintázatok felismerésére, a változás irányainak meghatározására és a kiegyensúlyozottabb életvitel kialakítására."
     },
     {
@@ -43,6 +46,7 @@ const Services = () => {
       description: "A pár-és családterápia olyan terápiás megközelítés, amely az egyén nehézségeit a kapcsolati rendszerében vizsgálja.",
       icon: <Book className="h-6 w-6" />,
       color: '#d8f1e7',
+      icolor: '#81a995',
       details: "A pár-és családterápia olyan terápiás megközelítés, amely az egyén nehézségeit a kapcsolati rendszerében vizsgálja. A terápiás fókuszi a családi kapcsolatokon, a társas viszonyokon, valamint a kulturális és környezeti hatások összességén van.  A terápiás munka célja, hogy támogassuk a család harmonikus működését: erősítsük a kölcsönös megértést, az érzelmi támogatást, és fejlesszük a megküzdési és problémamegoldó készségeket. A család fogalmát tágan értelmezzük – számunkra minden olyan emberi közösség családnak számít, amelynek tagjai törődnek egymással, és magukat családként határozzák meg. A terápiás folyamatot mindig az adott család élethelyzetéhez, szükségleteihez és értékeihez igazítjuk."
     },
     {
@@ -50,6 +54,7 @@ const Services = () => {
       description: "A rendszerszemléletű párterápia egy olyan terápiás megközelítés, amely a párkapcsolatot nem egyének összességének, hanem rendszerként kezeli.",
       icon: <Sparkles className="h-6 w-6" />,
       color: '#d8f1e7',
+      icolor: '#81a995',
       details: "A rendszerszemléletű párterápia egy olyan terápiás megközelítés, amely a párkapcsolatot nem egyének összességének, hanem rendszerként kezeli, így a terápiás munka középpontjában maga a kapcsolat áll, a cél pedig a működési mintázatok megértése és, ha szükséges új mintázatok, stratégiák kialakítása. A párterápia biztonságos keretet ad ahhoz, hogy a felek nyíltan, őszintén beszélhessenek a nehézségeikről. A folyamat során közösen dolgozunk a rögzült kommunikációs és viselkedési minták feltárásán, megértjük ezek eredetét és hatását, majd segítünk olyan új kapcsolati működésmódokat kialakítani, amelyek támogatják a kapcsolat fejlődését és stabilitását."
     },
     {
@@ -57,6 +62,7 @@ const Services = () => {
       description: "Központunkban önismereti, meseterápiás, gyermekpszichodráma, irodalomterápiás és tematikus csoportokat tartunk.",
       icon: <Heart className="h-6 w-6" />,
       color: '#d8f1e7',
+      icolor: '#81a995',
       details: "Központunkban önismereti, meseterápiás, gyermekpszichodráma, irodalomterápiás és tematikus csoportokat tartunk."
     },
     {
@@ -64,6 +70,7 @@ const Services = () => {
       description: "A Mosoly Alapítvány Széles Mosoly támogatási programjának a célja, hogy rugalmas keretek között gyors és rendszeres támogatást nyújtson azon gyermekek és családjaik részére, akiknek sürgős pszichés segítségre van szükségük, de elesnek ettől az állami rendszerben tapasztalható hosszú várólisták miatt, vagy mert a privát szolgáltatást nem tudnák megfizetni. A program lépcsős támogatási lehetőségeket kínál egyéni és családterápiás folyamatok finanszírozására. A programban a Mosoly Alapítvány célcsoportjainak megfelelő (súlyos, krónikus beteg, pszichés problémával küzdő) gyermekek és családjaik vehetnek részt. A gyermekeket és családokat a Mosollyal kapcsolatban álló szakemberek ajánlhatják a programba, akik fel tudják mérni az ellátás szükségességét. A B61 Szentendrei Pszichológiai Központban Jeney Gabriellánál lehet erre a programra jelentkezni.",
       icon: <Smile className="h-6 w-6" />,
       color: '#efcc45',
+      icolor: '#ffffff',
       details: "Központunkban önismereti, meseterápiás, gyermekpszichodráma, irodalomterápiás és tematikus csoportokat tartunk."
     }
   ];
@@ -116,7 +123,7 @@ const Services = () => {
                 <div key={index} className="bg-therapy-beige p-6 rounded-lg shadow-sm">
                   <div className="flex items-center space-x-4 mb-4">
                     <div className="w-12 h-12 rounded-full flex items-center justify-center" style={{ backgroundColor: service.color }}>
-                      <div className="text-therapy-blue">{service.icon}</div>
+                      <div style={{ Color: service.icolor }}>{service.icon}</div>
                     </div>
                     <h3 className="text-xl font-medium text-therapy-dark">{service.title}</h3>
                   </div>
