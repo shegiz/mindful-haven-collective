@@ -22,6 +22,7 @@ const ContactForm = () => {
     phone: '',
     subject: '',
     message: '',
+    website: '',
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -72,6 +73,7 @@ const ContactForm = () => {
         phone: '',
         subject: '',
         message: '',
+        website: '',
       });
     } catch (err: any) {
       toast({
@@ -85,6 +87,15 @@ const ContactForm = () => {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
+      <input
+          type="text"
+          name="website"
+          value={formData.website || ''}
+          onChange={handleChange}
+          style={{ display: "none" }} // hidden from humans
+          tabIndex={-1}
+          autoComplete="off"
+      />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="space-y-2">
           <Label htmlFor="name">Név</Label>
