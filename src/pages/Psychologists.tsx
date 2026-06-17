@@ -11,7 +11,7 @@ const Psychologists = () => {
       id: "javorszky_eszter",
       name: "Jávorszky Eszter",
       title: "Gyermekpszichodráma vezető, pár-és családterapeuta jelölt",
-      specialties: ["Gyermekpszichodráma", "Pár- és családterápia"],
+      specialties: ["Felnőtt pszichológiai konzultáció", "Monodráma tanácsadás"],
       image: "/javorszky.jpg",
       shortBio: "Jávorszky Eszter vagyok, okleveles pszichológus, pszichodráma vezető, monodráma tanácsadó. Az egyetem elvégzése után a hajléktalan ellátásban dolgoztam egyéni és csoportos felállásban jellemzően függőséggel és egyéb mentális problémával küzdő emberekkel, illetve az őket segítő szociális munkásokkal. Ezt követően több jászsági családsegítőben támogattam hátrányos helyzetű családokat. Munkám során mindig izgalmas kihívás volt számomra, hogy közös hangot találjak a legkülönfélébb emberekkel és elnyerjem bizalmunkat ahhoz, hogy kísérhessem őket önismereti útjukon. Hiszek a kapcsolat megtartó erejében. Hiszem, hogy az élmények láthatóvá válása tehermentesít és segít megérteni helyzetünket. Hiszem, hogy az elkötelezett segítői kapcsolatban mindenki képes rátalálni külső és belső erőforrásaira, amit céljai szolgálatába állíthat. 2013 óta foglalkozom egyéni tanácsadással. \n Miben segíthetek? \n · ha azt érzi bizonyoson problémákkal nem tud egyedül megküzdeni\n · Úgy érzi, bizonyos élethelyzetekben képtelen előrelépni\n · Úgy érzi, bizonyos helyzetekben mindig ugyanabba a problémába ütközik, képtelen új megoldásokat találni\n · ha nehéz elfogadni bizonyos változásokat és ezekben természetes krízisekben nehezen találja helyét (párkapcsolat, munkahelyváltás, családalapítás, nyugdíj, válás, gyermekek kirepülése), \n · ha szeretné jobban megismerni saját működésmódját\n · ha szeretne közelebb kerülni önmagához, érzéseihez\n · Ha az LMBTQ közösség tagjaként nehezen birkózik meg helyzetével vagy az önelfogadásával"
     },
@@ -19,7 +19,7 @@ const Psychologists = () => {
       id: "jeney-gabriella",
       name: "Jeney Gabriella",
       title: "Gyermekpszichodráma vezető, pár-és családterapeuta jelölt",
-      specialties: ["Gyermekpszichodráma", "Pár- és családterápia"],
+      specialties: ["Gyermekpszichodráma", "Pár- és családterápia", "Támogatott terápia"],
       image: "/jeney.jpg",
       shortBio: "Pszichológusi utamat a Bátor Táborban töltött öt év önkéntes munka indította el, ahol krónikusan beteg gyermekekkel dolgozhattam. Ez az időszak mély nyomot hagyott bennem, és meghatározó élménnyé vált – innen ered az a belső motiváció, amely a pszichológia felé terelt. 2015-ben elvégeztem a „Szuggesztiók alkalmazása a szomatikus orvoslásban” képzést a Semmelweis Egyetem és a Magyar Hipnózis Egyesület szervezésében. Több év saját önismereti munka után felnőtt- és gyermekpszichodramatista képesítést szereztem, majd a családkonzultáció/családterápia területén képeztem tovább magam. 2023-ban részt vettem Dr. Scott Wooley Érzelmi Fókuszú Párterápia képzésén, amely tovább mélyítette kapcsolatorientált szemléletemet. Jelenleg HR vezetőként dolgozom, emellett rendszeres családterápiás folyamatokat vezetek Budapesten, valamint gyermekpszichodráma csoportokat tartok Szentendrén co-terápiás keretben. A B61 Központban családterápiát vezetünk Józsa Balázzsal és gyermekpszichodráma csoportot tartunk Szentes Annamáriával."
     },

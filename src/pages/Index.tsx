@@ -11,6 +11,11 @@ import Footer from '@/components/Footer';
 const Index = () => {
   const featuredPsychologists = [
     {
+      name: "Jávorszky Eszter",
+      title: "Okleveles pszichológus, pszichodráma vezető, monodráma tanácsadó.",
+      specialties: ["Felnőtt pszichológiai konzultáció", "Monodráma tanácsadás"],
+    },
+    {
       name: "Jeney Gabriella",
       title: "Gyermekpszichodráma vezető, pár-és családterapeuta jelölt",
       specialties: ["Gyermekpszichodráma", "Pár- és családterápia"],
