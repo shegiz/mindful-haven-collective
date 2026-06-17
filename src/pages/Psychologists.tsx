@@ -72,7 +72,7 @@ const Psychologists = () => {
         <HeroSection 
           title="Szakembereink"
           subtitle="Ismerje meg pszichológusainkat, akik elkötelezettek az ön és családja mentális egészségének támogatásában."
-          imageSrc="/csapat.jpg"
+          imageSrc="/csapatfoto_placeholder.jpg"
           primaryButtonText="Foglaljon Időpontot"
           primaryButtonLink="/idopontfoglalas"
         />
