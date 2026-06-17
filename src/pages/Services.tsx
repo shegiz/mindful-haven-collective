@@ -123,7 +123,7 @@ const Services = () => {
                 <div key={index} className="bg-therapy-beige p-6 rounded-lg shadow-sm">
                   <div className="flex items-center space-x-4 mb-4">
                     <div className="w-12 h-12 rounded-full flex items-center justify-center" style={{ backgroundColor: service.color }}>
-                      <div style={{ Color: service.icolor }}>{service.icon}</div>
+                      <div style={{ color: service.icolor }}>{service.icon}</div>
                     </div>
                     <h3 className="text-xl font-medium text-therapy-dark">{service.title}</h3>
                   </div>
