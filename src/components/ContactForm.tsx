@@ -124,7 +124,7 @@ const ContactForm = () => {
         </div>
         <div className="space-y-2">
           <Label htmlFor="subject">Tárgy</Label>
-          <Select onValueChange={handleSelectChange}>
+          <Select value={formData.subject} onValueChange={handleSelectChange}>
             <SelectTrigger>
               <SelectValue placeholder="Válasszon tárgyat" />
             </SelectTrigger>
