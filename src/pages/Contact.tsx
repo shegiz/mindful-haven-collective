@@ -23,13 +23,14 @@ const Contact = () => {
                 <div className="bg-white p-8 rounded-lg shadow-sm">
                   <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Árak</h2>
                   <p className="text-therapy-gray mb-6">
-                    Az árak a módszer és a szakemberek végzettségtől és szakmai tapasztalatától függően változnak.<br /><br />
+                    Az árak a módszer és a szakemberek végzettségtől és szakmai tapasztalatától függően változnak. A Mosoly Alapítvány finanszírozta Támogatott terápiák az adott család anyagi lehetőségeitől függően 50 - 75 - 100%-os térítéssel valósulnak meg.<br /><br />
                     <b>Egyéni terápia, tanácsadás</b>: 15-20.000 Ft/alkalom (50 perc) <br />
                     <b>Pár-és családterápia</b>: 50-55.000 Ft/alkalom (90 perc) <br />
                     <b>Online párterápia</b>: 40.000 Ft/alkalom (90 perc) <br />
                     <b>Online párterápia angolul</b>: 50.000 Ft/alkalom (90 perc) <br />
                     <b>Gyermekpszichodráma csoport</b>: 7.500 Ft/alkalom (60 perc) <br />
-                    <b>Irodalomterápiás csoport</b>: 6-8.000 Ft/alkalom (120 perc) 
+                    <b>Irodalomterápiás csoport</b>: 6-8.000 Ft/alkalom (120 perc) <br />
+                    <b>Támogatott terápia</b>: A Mosoly Alapítvány finanszírozásában valósul meg
                   </p>
                 </div>
 
