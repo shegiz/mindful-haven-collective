@@ -13,6 +13,12 @@ const Contact = () => {
         <section className="py-12 md:py-20 bg-therapy-beige">
           <div className="container-custom mx-auto">
             <div className="text-center mb-12">
+              <div className="w-full md:h-[250px] rounded-2xl overflow-hidden">
+                <img src="/partner_wide.jpg" />
+              </div>
+            </div>
+
+            <div className="text-center mb-12">
               <h1 className="text-4xl md:text-5xl font-bold text-therapy-dark mb-4">Árak és Kapcsolat</h1>
             </div>
 
