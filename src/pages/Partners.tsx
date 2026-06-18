@@ -44,10 +44,11 @@ const Partners = () => {
     <>
       <Navbar />
       <main>
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-therapy-dark mb-4">Partnereink</h1>
-        </div>
-
+        <section className="py-12 md:py-20 bg-therapy-beige">
+          <div className="text-center mb-12">
+            <h1 className="text-4xl md:text-5xl font-bold text-therapy-dark mb-4">Partnereink</h1>
+          </div>
+        </section>
         <section className="section-padding bg-white">
           <div className="container-custom max-w-5xl">
             <div className="space-y-12">
