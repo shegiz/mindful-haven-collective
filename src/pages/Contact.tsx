@@ -97,9 +97,9 @@ const Contact = () => {
                 </div>
 
                 {/* Map or Additional Information */}
-                <div className="bg-white p-8 rounded-lg shadow-sm" style={{ minHeight: '500px' }}>
+                <div className="bg-white p-8 rounded-lg shadow-sm">
                   <h2 className="text-2xl font-semibold text-therapy-dark mb-6">Térkép</h2>
-                  <div className="aspect-video bg-gray-200 rounded-md overflow-hidden">
+                  <div className="aspect-video bg-gray-200 rounded-md overflow-hidden" style={{ minHeight: '500px' }}>
                     <iframe 
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10746.976657371964!2d19.055845678624607!3d47.669966208453104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741d67aaad8a25f%3A0x40752374c8de13f6!2sSzentendre%2C%20B%C3%BCkk%C3%B6s%20part%2061%2C%202000!5e0!3m2!1sen!2shu!4v1781692675445!5m2!1sen!2shu" 
                       width="100%" 
