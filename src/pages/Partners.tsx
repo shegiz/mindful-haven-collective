@@ -44,14 +44,9 @@ const Partners = () => {
     <>
       <Navbar />
       <main>
-        <HeroSection
-          title="Partnereink"
-          subtitle=""
-          imageSrc="/partner.jpg"
-          primaryButtonText=""
-          primaryButtonLink=""
-          imagePosition="left"
-        />
+        <div className="text-center mb-12">
+          <h1 className="text-4xl md:text-5xl font-bold text-therapy-dark mb-4">Partnereink</h1>
+        </div>
 
         <section className="section-padding bg-white">
           <div className="container-custom max-w-5xl">
