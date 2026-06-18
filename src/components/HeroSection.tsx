@@ -28,13 +28,15 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           <div className="md:w-1/2 space-y-6 mb-8 md:mb-0 md:px-4">
             <h1 className="text-therapy-dark">{title}</h1>
             <p className="text-lg text-therapy-gray max-w-lg">{subtitle}</p>
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Link to={primaryButtonLink}>
-                <Button className="bg-therapy-blue hover:bg-therapy-blue/90 px-8 py-6 rounded-md w-full sm:w-auto">
-                  {primaryButtonText}
-                </Button>
-              </Link>
-            </div>
+            {primaryButtonLink && (
+              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+                <Link to={primaryButtonLink}>
+                  <Button className="bg-therapy-blue hover:bg-therapy-blue/90 px-8 py-6 rounded-md w-full sm:w-auto">
+                    {primaryButtonText}
+                  </Button>
+                </Link>
+              </div>
+            )}
           </div>
 
           {/* Image */}
