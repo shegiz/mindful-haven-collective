@@ -47,9 +47,9 @@ const Partners = () => {
         <HeroSection
           title="Partnereink"
           subtitle=""
-          imageSrc="/b61_img2.jpg"
-          primaryButtonText="Foglaljon időpontot"
-          primaryButtonLink="/idopontfoglalas"
+          imageSrc="/partner.jpg"
+          primaryButtonText=""
+          primaryButtonLink=""
           imagePosition="left"
         />
 
