@@ -24,6 +24,7 @@ const Navbar = () => {
     //{ title: t('practice'), href: "/rendelo" },
     { title: t('services'), href: "/szolgaltatasok" },
     { title: t('psychologists'), href: "/pszichologusok" },
+    { title: t('partners'), href: "/partnereink" },
     { title: t('contact'), href: "/kapcsolat" },
   ];
 
