@@ -68,19 +68,18 @@ const HeroCarousel: React.FC = () => {
 
   const slides = [
     {
-      title: "Támogatott Terápia",
-      subtitle: "A Mosoly Alapítvány segítségével lehetőség van Támogatott terápiát is igénybe venni Jeney Gabriellánál, hogy azok a gyermekek és családok se szoruljanak ki az ellátásból, akiknek sürgős pszichés segítségre van szükségük, de elesnek ettől az állami rendszerben tapasztalható hosszú várólisták miatt, vagy mert a privát szolgáltatást nem tudnák megfizetni.",
-      imageSrc: "/Mosoly_logo.png",
-      primaryButtonText: "Foglaljon időpontot",
-      primaryButtonLink: "/idopontfoglalas?psychologist=jeney-gabriella",
-    },
-    {
       title: "Magas színvonalú és széleskörű pszichológiai szolgáltatásokkal várjuk a hozzánk fordulókat egy elfogadó és támogató környezetben Szentendre belvárosában.",
       subtitle: "",
       imageSrc: "/b61_img2.jpg",
       primaryButtonText: "Foglaljon időpontot",
       primaryButtonLink: "/idopontfoglalas",
-    } 
+    },    {
+      title: "Támogatott Terápia",
+      subtitle: "A Mosoly Alapítvány segítségével lehetőség van Támogatott terápiát is igénybe venni Jeney Gabriellánál, hogy azok a gyermekek és családok se szoruljanak ki az ellátásból, akiknek sürgős pszichés segítségre van szükségük, de elesnek ettől az állami rendszerben tapasztalható hosszú várólisták miatt, vagy mert a privát szolgáltatást nem tudnák megfizetni.",
+      imageSrc: "/Mosoly_logo.png",
+      primaryButtonText: "Ismerje meg Partnerünket",
+      primaryButtonLink: "/partnereink",
+    }
   ];
 
   return (
