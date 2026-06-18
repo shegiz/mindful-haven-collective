@@ -3,8 +3,9 @@ type TranslationKey =
   | 'home' 
   | 'aboutUs' 
   | 'practice' 
-  | 'psychologists' 
-  | 'services' 
+  | 'psychologists'
+  | 'partners'
+  | 'services'
   | 'contact'
   | 'bookAppointment'
   | 'bookingTitle'
@@ -48,6 +49,7 @@ export const translations: Record<string, Translations> = {
     aboutUs: 'About Us',
     practice: 'The Practice',
     psychologists: 'Psychologists',
+    partners: 'Partners',
     services: 'Services',
     contact: 'Contact',
     bookAppointment: 'Foglaljon időpontot',
@@ -94,6 +96,7 @@ export const translations: Record<string, Translations> = {
     aboutUs: 'Bemutatkozás',
     practice: 'A Rendelő',
     psychologists: 'Szakembereink',
+    partners: 'Partnereink',
     services: 'Szolgáltatásaink',
     contact: 'Árak / Kapcsolat',
     bookAppointment: 'Időpontfoglalás',
