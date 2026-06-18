@@ -33,8 +33,11 @@ const Footer = () => {
                 <Link to="/pszichologusok" className="hover:underline text-sm">Szakembereink</Link>
               </li>
               <li>
+                <Link to="/partnereink" className="hover:underline text-sm">Partnereink</Link>
+              </li>
+              <li>
                 <Link to="/kapcsolat" className="hover:underline text-sm">Árak / Kapcsolat</Link>
-              </li>              
+              </li>     
               <li>
                 <Link to="/idopontfoglalas" className="hover:underline text-sm">Foglaljon időpontot</Link>
               </li>

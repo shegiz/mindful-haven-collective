@@ -12,6 +12,7 @@ import AboutUs from "./pages/AboutUs";
 import Practice from "./pages/Practice";
 import Psychologists from "./pages/Psychologists";
 import Services from "./pages/Services";
+import Partners from "./pages/Partners";
 import Booking from "./pages/Booking";
 import Contact from "./pages/Contact";
 
@@ -31,6 +32,7 @@ const App = () => (
             <Route path="/rendelo" element={<Practice />} />
             <Route path="/pszichologusok" element={<Psychologists />} />
             <Route path="/szolgaltatasok" element={<Services />} />
+            <Route path="/partnereink" element={<Partners />} />
             <Route path="/idopontfoglalas" element={<Booking />} />
             <Route path="/kapcsolat" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
