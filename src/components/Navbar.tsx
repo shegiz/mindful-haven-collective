@@ -32,7 +32,7 @@ const Navbar = () => {
     <nav className="bg-white shadow-sm sticky top-0 z-50">
       <div className="container-custom mx-auto flex justify-between items-center py-4">
         <Link to="/" className="flex items-center space-x-2">
-          <span className="font-serif font-bold text-1xl">B61 Szentendrei Pszichológiai Központ</span>
+          <span className="font-serif font-bold text-[1.375rem]">B61 Szentendrei Pszichológiai Központ</span>
         </Link>
 
         {/* Desktop Menu */}
