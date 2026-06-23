@@ -24,6 +24,7 @@ import {
 } from "@/components/ui/card";
 
 const psychologists = [
+  { id: "almassy-foldvary-zsofia", name: "Almássy-Földváry Zsófia" },
   { id: "foldvary-zsofia", name: "Földváry Zsófia" },
   { id: "javorszky-eszter", name: "Jávorszky Eszter" },
   { id: "jeney-gabriella", name: "Jeney Gabriella" },
