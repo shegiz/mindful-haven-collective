@@ -8,6 +8,14 @@ import PsychologistCard from '@/components/PsychologistCard';
 const Psychologists = () => {
   const psychologists = [
     {
+      id: "almassy_foldvary_zsofia",
+      name: "Almássy-Földváry Zsófia",
+      title: "Okleveles pszichológus, Fejlődés- és klinikai gyermekpszichológia szakirány",
+      specialties: ["Gyermek és serdülők pszichológiai gondozása", "Pszichológiai tanácsadás", "Nevelési tanácsadás", "Szülőkonzultáció"],
+      image: "/almassy.jpg",
+      shortBio: "Almássy-Földváry Zsófi vagyok, okleveles pszichológus (Fejlődés- és klinikai gyermekpszichológia szakirány). Jelenleg a Pest Vármegyei Pedagógiai Szakszolgálat Váci Tagintézményének pszichológusa vagyok. Pszichológusi munkám része a nevelési tanácsadás feladatainak ellátása, valamint a tankerületi szakértői bizottsági tevékenység, azon belül beilleszkedési, tanulási és magatartási nehézségek feltárása és iskolaérettségi vizsgálatok. Ezt megelőzően speciális gyermekotthonban nyújtottam pszichológusi szolgáltatást serdülők számára, majd az Óbudai Családi Tanácsadó és Gyermekvédelmi Központ Család- és Gyermekjóléti Központjában szereztem tapasztalatot.\n Hiszem, hogy a gyermekek számára a játék a legtermészetesebb nyelv. Pszichológiai munkám során integratív szemléletben játékterápiás és művészetterápiás eszközöket, projektív technikákat, valamint kognitív viselkedésterápiás eszközöket alkalmazok. Ezek segítségével térképezem fel a gyermek és serdülő belső világát, rejtett konfliktusait és érzelmi elakadásait, hatékonyan támogatva őket nehézségeik leküzdésében és önértékelésük támogatásában.\nÚgy gondolom, hogy a gyermekek pszichológiai gondozása akkor igazán hatékony, ha a szülők aktív partnerek a folyamatban. Célom, hogy a nevelési kérdéseket együtt gondolkodva, a család egyedi dinamikájához és rugalmasságához igazítva formáljuk át a harmonikus családi működés érdekében. Szeretettel várom a hozzám forduló gyermekeket, serdülőket és szüleiket."
+    },
+    {
       id: "javorszky_eszter",
       name: "Jávorszky Eszter",
       title: "Gyermekpszichodráma vezető, pár-és családterapeuta jelölt",
