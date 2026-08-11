@@ -11,6 +11,11 @@ import Footer from '@/components/Footer';
 const Index = () => {
   const featuredPsychologists = [
     {
+      name: "Almássy-Földváry Zsófia",
+      title: "Okleveles pszichológus, Fejlődés- és klinikai gyermekpszichológia szakirány",
+      specialties: ["Gyermek és serdülők pszichológiai gondozása", "Pszichológiai tanácsadás", "Nevelési tanácsadás", "Szülőkonzultáció"],
+    },
+    {
       name: "Jávorszky Eszter",
       title: "Okleveles pszichológus, pszichodráma vezető, monodráma tanácsadó.",
       specialties: ["Felnőtt pszichológiai konzultáció", "Monodráma tanácsadás"],
