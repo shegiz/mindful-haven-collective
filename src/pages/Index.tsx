@@ -44,7 +44,11 @@ const Index = () => {
       name: "Dr. Szentes Annamária",
       title: "Alapító, szakmai vezető, klinikai gyermek szakpszichológus, pár-és családterapeuta, meseterapeuta és gyermekpszichodráma vezető",
       specialties: ["Egyéni gyermekterápia", "Pár- és családterápia", "Gyermekpszichodráma"],
-    },    
+    },   
+    { name: "Szentgyörgyi-Zombor Zsófia",
+      title: "Pszichológus",
+      specialties: ["Kognitív viselkedésterápia", "Családterápia", "Serdülők pszichés gondozása", "Szülőkonzultáció"],
+    },     
     {
       name: "Vásárhelyi Kriszta",
       title: "Klinikai ifjúsági- és gyermek szakpszichológus",
