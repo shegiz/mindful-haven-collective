@@ -64,6 +64,14 @@ const Psychologists = () => {
       shortBio: "Szentes Annamária vagyok, klinikai gyermek szakpszichológus, pár-és családterapeuta, meseterapeuta és gyermekpszichodráma  vezető. \n Szakmai tapasztalataimat a Semmelweis Egyetem Gyermekgyógyászati Klinika Tűzoltó utcai részlegén szereztem, ahol osztályos munka keretében onkológiai és krónikusan beteg gyerekek és családjaik pszichés támogatása volt a feladatom. Doktori értekezésemet gyermek onkopszichológia témában védtem meg. \n Jelenleg az International Business School (IBS) Pszichológia BA képzésének vagyok  a  vezetője és magánrendelés keretein belül dolgozom csoportokkal, gyerekekkel és családokkal."
     },
     {
+      id: "szentgyorgyi-zombor-zsofia",
+      name: "Szentgyörgyi-Zombor Zsófia",
+      title: "Pszichológus",
+      specialties: ["Kognitív viselkedésterápia", "Családterápia", "Serdülők pszichés gondozása", "Szülőkonzultáció"],
+      image: "/szentgyorgyi.jpg",
+      shortBio: "Szentgyörgyi-Zombor Zsófia vagyok, okleveles pszichológus, képzésben lévő családterapeuta és gyermek-CBT konzulens. 2024 eleje óta a Heim Pál Országos Gyermekgyógyászati Intézmény Serdülőkori Evészavar Ambulanciáján dolgozom, ahol evészavarokban érintett gyermekek és serdülők számára tartok csoportfoglalkozásokat, valamint családterápiás ellátásukban veszek részt."
+    },
+    {
       id: "vasarhelyi-kriszta",
       name: "Vásárhelyi Kriszta",
       title: "klinikai ifjúsági- és gyermek szakpszichológus",
